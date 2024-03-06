@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1vmax;
+
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 7px;
+}
+
+.hamburger-menu-button-header {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.light-font {
+    font-weight: lighter; /* You can adjust this value according to your preference */
+}
+
+@media screen and (max-width: 425px) {
+    .logo-container-header > img {
+        width: 20vmax;
+    }
+}

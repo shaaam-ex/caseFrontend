@@ -1,0 +1,496 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.main-carousel-standard {
+    position: relative;
+    height: 70vh;
+}
+
+.main-carousel-standard::before {
+    position: absolute;
+    content: '';
+    height: 70vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.27) 0px -23px 25px 320px inset, rgba(0, 0, 0, 0.55) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.first-carousel-container-landing-page {
+    height: 70vh;
+    color: white;
+}
+
+.first-carousel-container-landing-page > img {
+    z-index: 1;
+}
+
+.banners-first-slide-admissions {
+    position: absolute;
+    display: flex;
+}
+
+.first-banner-admissions,
+.second-banner-admissions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 13px;
+
+    margin: 1vmax;
+    padding: 0 2vmax;
+
+    height: 25vh;
+    width: 300px;
+
+    background-color: #293955;
+    line-height: 32px;
+}
+
+.h2-banner-standard {
+    font-size: 24px;
+}
+
+.h3-banner-standard {
+    font-size: 16px;
+    margin: 0;
+}
+
+.h3-banner-standard > a {
+    color: yellow;
+}
+
+.h3-banner-standard > span {
+    color: yellow;
+}
+
+.standard-button {
+    position: absolute;
+    bottom: 26px;
+
+    text-decoration: none;
+    background-color: red;
+    width: 110px;
+
+    border-radius: 13px;
+
+    color: white;
+
+    font-size: 15px;
+
+    transition: 0.22s ease-in-out;
+}
+
+.standard-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.standard-banner-medium {
+    height: 220px;
+    z-index: 999;
+}
+
+.banner-container-second-carousel {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+}
+
+.banner-container-second-carousel > img {
+    max-width: 9.5vmax;
+    max-height: 9.5vmax;
+}
+
+.banner-container-third-carousel {
+    position: absolute;
+}
+
+
+.second-container-arrow-down {
+    color: black;
+    text-align: center;
+    height: 17.2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container-third-carousel > h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.banner-container-third-carousel > h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+
+    line-height: 30px;
+}
+
+.arrow-down-svg {
+    color: black;
+    font-size: 55px;
+    opacity: 0.7; 
+}
+
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-section > h1 {
+    font-family: serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: rgb(13, 52, 96);
+    transition: 0.32s ease-in-out;
+}
+
+.container-inner-welcome-section {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.32s ease-in-out;
+}
+
+.left-div-welcome-section {
+    display: flex;
+    min-width: 50vw;
+
+    justify-content: center;
+    transition: 0.32s all;
+    transition: 0.32s ease-in-out;
+}
+
+.slogan-div-welcome-section {
+    position: relative;
+
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 400;
+
+    color: rgba(0, 0, 0, 0.8);
+
+    width: 50vw;
+    line-height: 34px;
+
+    margin-left: 1vmax;
+
+    margin-top: 2vmax;
+
+    padding-left: 1.5vmax;
+
+
+    display: flex;
+    align-items: center;
+
+    height: 35vh;
+    transition: 0.32s all;
+}
+
+/* .slogan-div-welcome-section::before {
+    position: absolute;
+    content: '';
+    border: 2.5px solid hsla(0,0%,59%,.3);
+    border-radius: 13px;
+    height: 35vh;
+    left: -5px;
+} */
+
+
+.counter-section-landing-page {
+    width: 98.8vw;
+    margin-top: 3vmax;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.second-div-counter-section-landing-page {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+
+    background-color: #f2f2f2;
+
+    margin-bottom: 2vmax;
+}
+
+.graduates-container-counter-section {
+    height: 15.5vh;
+    margin-left: 2vmax;
+}
+
+.graduates-container-counter-section:last-child {
+    width: 6vw;
+    margin-left: 0;
+}
+
+.graduates-container-counter-section > h2 {
+    font-size: 19px;
+    width: 200px;
+}
+
+.graduates-container-counter-section > h1 {
+    font-size: 55px;
+    color: #0d3460;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: white; 
+}
+
+
+@media screen and (max-width: 1740px) {
+    .left-div-welcome-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .graduates-container-counter-section {
+        height: 15.5vh;
+        margin-left: 2vmax;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 6vw;
+        margin-left: 0;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 0.9vmax;
+        width: 180px;
+    }
+    
+    .graduates-container-counter-section > h1 {
+        font-size: 2.5vmax;
+        color: #0d3460;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .left-div-welcome-section {
+        width: 80vw;
+    }
+
+    .second-div-counter-section-landing-page {
+        width: 75vw;
+        height: 15vmax;
+        justify-content: space-around;
+    }
+
+    .graduates-container-counter-section {
+        height: 10vmax;
+        margin-left: 2vmax;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 6vw;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 1.2vmax;
+        width: 180px;
+    }
+    
+    .graduates-container-counter-section > h1 {
+        font-size: 3vmax;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .banners-first-slide-admissions {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        padding: 0 80px;
+    }
+
+    .first-banner-admissions,
+    .second-banner-admissions {
+        padding: 0 0.7vmax;
+
+        height: 25vh;
+        width: 250px;
+
+        background-color: #293955;
+        line-height: 32px;
+    }
+
+    .h2-banner-standard {
+        font-size: 18px;
+    }
+
+    .h3-banner-standard {
+        font-size: 13.7px;
+    }
+
+    .h3-banner-standard > a {
+        font-size: 13.5px;
+    }
+
+    #testbutton {
+        position: relative;
+        bottom: 0;
+        transition: none;
+    }
+
+    .slogan-div-welcome-section {
+        font-size: 18px;
+    }
+
+    .second-div-counter-section-landing-page {
+        width: 75vw;
+        height: 74vmax;
+        flex-direction: column;
+
+        margin-top: 2vmax;
+    }
+
+    .graduates-container-counter-section:first-child {
+        margin-top: 0px;
+    }
+
+    .graduates-container-counter-section {
+        height: 12vmax;
+        margin-top: 3vmax;
+        margin-left: 2vmax;
+        width: 230px;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 230px;
+        margin-left: 2vmax;
+        margin-top: 3vmax;
+
+        margin-bottom: 20px;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 2.5vmax;
+        width: 230px;
+    }
+    
+    .graduates-container-counter-section > h1 {
+        font-size: 4.5vmax;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #welcome-section > h1 {
+        font-size: 58px;
+        transition: 0.32s ease-in-out;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .first-banner-admissions,
+    .second-banner-admissions {
+        padding: 0 0.5vmax;
+
+        height: 23vh;
+        width: 250px;
+
+        background-color: #293955;
+        line-height: 3.5vmax;
+    }
+
+    .h2-banner-standard {
+        font-size: 18px;
+    }
+
+    .h3-banner-standard {
+        font-size: 13.7px;
+    }
+
+    .h3-banner-standard > a {
+        font-size: 13.5px;
+    }
+    .banner-container-second-carousel {
+        width: 60vw;
+    }
+
+    .h3-banner-standard {
+        font-size: 13px;
+    }
+
+    .second-div-counter-section-landing-page {
+        width: 85vw;
+        height: 74vmax;
+        flex-direction: column;
+
+        margin-top: 2vmax;
+    }
+
+    .graduates-container-counter-section:first-child {
+        margin-top: 0px;
+    }
+
+    .graduates-container-counter-section {
+        height: 12vmax;
+        margin-top: 3vmax;
+        margin-left: 2vmax;
+        width: 230px;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 230px;
+        margin-left: 2vmax;
+        margin-top: 3vmax;
+
+        margin-bottom: 20px;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 2.5vmax;
+        width: 230px;
+    }
+}

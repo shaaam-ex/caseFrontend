@@ -1,0 +1,67 @@
+.main-container-welcome-card {
+    margin: 1vmax;
+}
+
+.main-container-welcome-card > img {
+    width: 270px;
+}
+
+.details-container-welcome-card {
+    width: 270px;
+}
+
+.details-container-welcome-card > h2 {
+    color: rgb(13, 52, 96);
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 1718px) {
+    .main-container-welcome-card {
+        margin: 1vmax;
+    }
+    
+    .main-container-welcome-card > img {
+        width: 230px;
+    }
+    
+    .details-container-welcome-card {
+        width: 230px;
+    }
+    
+    .details-container-welcome-card > h2 {
+        color: rgb(13, 52, 96);
+        font-weight: 500;
+
+        font-size: 17px;
+    }
+    
+    .details-container-welcome-card > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .main-container-welcome-card {
+        width: 330px;
+    }
+    
+    .main-container-welcome-card > img {
+        width: 330px;
+    }
+    
+    .details-container-welcome-card {
+        width: 330px;
+    }
+    
+    .details-container-welcome-card > h2 {
+        color: rgb(13, 52, 96);
+        font-weight: 500;
+
+        font-size: 19px;
+    }
+    
+    .details-container-welcome-card > p {
+        font-size: 15px;
+    }
+}
