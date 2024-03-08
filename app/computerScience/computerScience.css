@@ -40,6 +40,8 @@
 
     width: 100%;
     padding: 0 2vmax;
+
+    transition: 0.32s all;
 }
 
 .left-div-content-first {
@@ -50,6 +52,8 @@
 
     display: flex;
     align-items: center;
+    
+    transition: 0.32s all;
 }
 
 .left-div-content-first > h1 {
@@ -68,6 +72,8 @@
 
     padding-left: 2vmax;
     padding-right: 2vmax;
+    
+    transition: 0.32s all;
 }
 
 .text-div-right-div-content-first > h3 {
@@ -109,6 +115,30 @@
     background-color: #555555;
 }
 
+
+.second-div-container-computer-science {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.current-directory-div-second-div-computer-science {
+    width: 70vw;
+
+    padding: 0.6vmax 0;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.current-directory-div-second-div-computer-science > p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.current-directory-div-second-div-computer-science > p > a {
+    text-decoration: none;
+    color: #ed1e24;
+}
 
 @media screen and (max-width: 1100px) {
     .content-first-banner-container-computer-science {
@@ -155,5 +185,54 @@
         content: '';
         width: 97%;
         border-top: 1px solid #f7f7f7;
+    }
+
+    .text-div-right-div-content-first {
+        padding-right: 15px;
+    }
+
+    .text-div-right-div-content-first > h3 > span::after {
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .first-banner-container-computer-science {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-div-content-first {
+        width: 95%;
+    }
+
+    .left-div-content-first > h1 {
+        font-size: 4vmax;
+    }
+
+    .right-div-content-first {
+        width: 90vw;
+    }
+
+    .right-div-content-first::before {
+        content: '';
+        width: 100%;
+        border-top: 1px solid #f7f7f7;
+    }
+
+
+    .click-here-button-right-div-content-first {
+        margin-top: 0;
+    }
+
+    .text-div-right-div-content-first > h3 {
+        font-size: 2.2vmax;
+        margin-bottom: 4vmax;
+    }
+
+    .text-div-right-div-content-first > h3 > span::after {
+        content: "\a";
+        white-space: pre;
     }
 }
