@@ -1,3 +1,4 @@
+import './computerScience.css';
 
 export default function ComputerScience() {
     return (
@@ -17,6 +18,22 @@ export default function ComputerScience() {
 
                 <div className="first-banner-container-computer-science">
                     <img src="https://case.edu.pk/wp-content/uploads/2023/06/2.png" alt="" />
+
+                    <div className="content-first-banner-container-computer-science">
+                        <div className="left-div-content-first">
+                            <h1>Department Of Computer Science</h1>
+                        </div>
+
+                        <div className="right-div-content-first">
+                            <div className="text-div-right-div-content-first">
+                                <h3>
+                                    <span>Students Doing Freelancing:</span>
+                                    Department Is Producing Freelancers For The IT Industry During Their Studies. 
+                                    List Of Our Present Freelancers
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
