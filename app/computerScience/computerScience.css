@@ -147,18 +147,47 @@
     justify-content: space-between;
 
     gap: 1vmax;
+
+    font-family: "Playfair Display";
 }
 
 .mission-statement-div-cs {
     background-color: #f1f4f8;
     color: #000000;
     
-    width: 550px;
-    height: 30vh;
+    width: 565px;
+    height: 40vh;
+}
+
+.mission-statement-div-cs > h1 {
+    font-weight: 500;
+    font-size: 54px;
+
+    letter-spacing: -1px;
+    margin-left: 1vmax;
+}
+
+.mission-statement-div-cs > p {
+    font-family: "Poppins";
+    font-size: 16px;
+
+    color: #666;
+    margin-left: 1.2vmax;
+
+    line-height: 23.5px;
 }
 
 .accreditation-div-cs {
     width: 550px;
+}
+
+.accreditation-div-cs > h2 {
+    font-family: "Playfair Display";
+}
+
+.accreditation-div-cs > p {
+    font-family: Poppins;
+    color: #666666;
 }
 
 @media screen and (max-width: 1100px) {
