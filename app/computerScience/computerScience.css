@@ -123,7 +123,7 @@
 }
 
 .current-directory-div-second-div-computer-science {
-    width: 70vw;
+    width: 60vw;
 
     padding: 0.6vmax 0;
 
@@ -138,6 +138,27 @@
 .current-directory-div-second-div-computer-science > p > a {
     text-decoration: none;
     color: #ed1e24;
+}
+
+.mission-statement-accreditation-div-second-div-container-computer-science {
+    margin-top: 3vmax;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+
+    gap: 1vmax;
+}
+
+.mission-statement-div-cs {
+    background-color: #f1f4f8;
+    color: #000000;
+    
+    width: 550px;
+    height: 30vh;
+}
+
+.accreditation-div-cs {
+    width: 550px;
 }
 
 @media screen and (max-width: 1100px) {
