@@ -67,17 +67,21 @@
     border-left: 1px solid white;
 
     padding-left: 2vmax;
+    padding-right: 2vmax;
 }
 
 .text-div-right-div-content-first > h3 {
-    font-size: 23px;
+    font-size: 21px;
     font-weight: lighter;
 
     margin-top: 50px;
+
+    line-height: 25px;
 }
 
 .text-div-right-div-content-first > h3 > span {
     font-weight: bold;
+    font-size: 23px;
 }
 
 .click-here-button-right-div-content-first {
@@ -103,4 +107,53 @@
     cursor: pointer;
     color: #f7f7f7;
     background-color: #555555;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .content-first-banner-container-computer-science {
+        justify-content: space-around;
+    }
+
+    .left-div-content-first {
+        width: 45vw;
+    }
+
+    .left-div-content-first > h1 {
+        font-size: 60px;
+    }
+
+    .text-div-right-div-content-first > h3 > span {
+        position: relative;
+    }
+
+    .text-div-right-div-content-first > h3 > span::after {
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+    .content-first-banner-container-computer-science {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left-div-content-first {
+        width: 80%;
+        margin-left: 1.6vmax;
+        height: 30%;
+    }
+
+    .right-div-content-first {
+        position: relative;
+        border-left: none;
+    }
+
+    .right-div-content-first::before {
+        content: '';
+        width: 97%;
+        border-top: 1px solid #f7f7f7;
+    }
 }
