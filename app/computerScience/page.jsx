@@ -100,6 +100,29 @@ export default function ComputerScience() {
 
                         <a href="#">Get Fee Structure Details</a>
                     </div>
+
+                    <div className="available-cs-programs-div-second-div-computer-science">
+                        <h2>Available Programs</h2>
+                        
+                        <p>
+                            The available programs for applicants vary, for students
+                            that have cleared their FSC (In Pre-Engineering) and ICS can 
+                            apply for the programs and will follow the regular courses during
+                            their tenure at CASE but for medical students, they have to study additional
+                            mathematics courses. The minimum percentage required to apply for the 
+                            following courses is 50%.
+                            The courses available are as follows: -
+                        </p>
+
+                        <ol>
+                            <li><a href="#">BSCS (BS Computer Science)</a></li>
+                            <li><a href="#">BSAI (BS Artificial Intelligence)</a></li>
+                            <li><a href="#">BSSE (BS Software Engineering)</a></li>
+                            <li><a href="#">BSCYS (BS Cyber Security)</a></li>
+                            <li><a href="#">BBA (Bachelor of Business Administration)</a></li>
+                            <li><a href="#">BS Accounting and Finance</a></li>
+                        </ol>
+                    </div>
                 </div>
             </div>
         </>
