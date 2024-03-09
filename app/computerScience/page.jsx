@@ -1,7 +1,14 @@
 import Link from 'next/link';
 import './computerScience.css';
 
+import { Roboto } from 'next/font/google';
+const roboto = Roboto({
+    subsets: ['latin'],
+    weight: '400'
+})
+
 export default function ComputerScience() {
+
     return (
         <>
             <div className="main-container-computer-science">
@@ -57,17 +64,17 @@ export default function ComputerScience() {
 
                         <div className="accreditation-div-cs">
                             <h2>Accreditation of BSCS from HEC</h2>
-                            <p>
-                                Accreditation from National Computing Education Accreditation Council (NCEAC).
+                            <div>
+                                <p>Accreditation from National Computing Education Accreditation Council (NCEAC).</p>
 
                                 <ol>
                                     <li>Category/Rating X for two years (2011‐2012)</li>
                                     <li>Category/Rating W for three years (2013‐2015)</li>
                                 </ol>
 
-                                Zero Visit Accreditation from HEC for BS Artificial Intelligence and Software 
-                                Engineering in Progress.
-                            </p>
+                                <p>Zero Visit Accreditation from HEC for BS Artificial Intelligence and Software 
+                                Engineering in Progress.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

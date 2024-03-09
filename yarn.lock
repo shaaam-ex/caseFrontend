@@ -226,11 +226,6 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-14.1.2.tgz#7ddd06938b11b2a0a83bcfd8b7e47a1f0ce92049"
   integrity sha512-U0iEG+JF86j6qyu330sfPgsMmDVH8vWVmzZadl+an5EU3o5HqdNytOpM+HsFpl58PmhGBTKx3UmM9c+eoLK0mA==
 
-"@next/font@^14.1.3":
-  version "14.1.3"
-  resolved "https://registry.yarnpkg.com/@next/font/-/font-14.1.3.tgz#7934abb490432816c00e28f8a1aae3cb5c6fdf86"
-  integrity sha512-YjdwNKdjR0FMAmH24sNjBfZs9+dVp3pN/zQi8lZxDo2YeOVf9cbB3qk95KARB1r0WxmpSYLlFTgaEPA7DlmYww==
-
 "@next/swc-darwin-arm64@14.1.2":
   version "14.1.2"
   resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.1.2.tgz#0752ab8008ea07d730c1ef0b8aedf9732fa385d8"
