@@ -1,5 +1,7 @@
 import './footer.css';
 
+import { BiLogoFacebook, BiLogoLinkedin, BiLogoInstagram, BiLogoWhatsapp } from "react-icons/bi";
+
 export default function Footer() {
     return(
         <>
@@ -43,7 +45,11 @@ export default function Footer() {
 
                     <h3>Our social links</h3>
 
-                    
+                    <BiLogoFacebook color='white' />
+                    <BiLogoLinkedin color='white' />
+                    <BiLogoInstagram color='white' />
+                    <BiLogoWhatsapp color='white' />
+
                 </div>
             </div>
         </>
