@@ -40,6 +40,10 @@ export default function Footer() {
 
                 <div className="right-div-container-footer">
                     <h2>Follow us</h2>
+
+                    <h3>Our social links</h3>
+
+                    
                 </div>
             </div>
         </>
