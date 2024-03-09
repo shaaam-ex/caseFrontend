@@ -1,5 +1,5 @@
 [build]
   command = "yarn build"
-  publish = ".next"
-  functions = ".next/functions"
+  publish = "out"
+  functions = "out/functions"
   skip = "true"
