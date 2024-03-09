@@ -297,6 +297,24 @@
     color: #666666;
 }
 
+.deans-message-div-container-computer-science {
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.deans-message-div-inner-computer-science {
+    width: 60vw;
+    display: flex;
+}
+
+.deans-message-div-inner-computer-science > img {
+    width: 140px;
+}
+
+
+
 @media screen and (max-width: 1100px) {
     .content-first-banner-container-computer-science {
         justify-content: space-around;

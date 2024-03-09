@@ -126,6 +126,50 @@ export default function ComputerScience() {
                     </div>
                 </div>
                 <Counter />
+
+                <div className="deans-message-div-container-computer-science">
+                    <div className="deans-message-div-inner-computer-science">
+                        <img src="https://case.edu.pk/wp-content/uploads/2023/06/Dr.-Abdul-Khaliq-Professor-and-Dean-EE--200x200.webp" alt="" />
+                    
+                        <div>
+                            <h2>Dr. Abdul Khaliq</h2>
+
+                            <h3>DEAN’S MESSAGE</h3>
+
+                            <p>
+                                It is with great pleasure I want to congratulate 
+                                everyone that CASE is now a degree-awarding 
+                                institute under the Federal Government Act of 
+                                Majlis-e-Shoora (Parliament) No. F.9(26)/2018-Legis 
+                                dated May 22, 2018. As per the new act, CASE has 
+                                transformed into Sir Syed CASE Institute of 
+                                Technology (SS CASE IT).
+                                We have moved to our newly constructed custom-built 
+                                campus located at Block A, Multi Garden, Sector B-17, Islamabad 
+                                since November 19, 2018. A historic date indeed!!
+
+                                Faculty of Engineering is running five programs at Bachelor, 
+                                Master, and PhD levels in the area of Electrical Engineering, 
+                                Computer Engineering, Software Engineering, and Computer Science. 
+                                We have already graduated more than +2000 students who have already 
+                                taken important positions in various national and multinational 
+                                organizations.
+
+                                I am extremely confident in the future of engineering 
+                                and computer sciences education and research at the SS 
+                                CASE IT. The institute has strong leadership in place, 
+                                remarkable faculty, an excellent student base, and an 
+                                amazing group of supporters in you, our alumni. We will 
+                                continue to provide quality research and educational 
+                                experience to equip the next generation of Top notch brilliant Engineers and Computer Scientists.
+
+                                I welcome you to be part of this faculty.
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                </div>
             </div>
         </>
     )
