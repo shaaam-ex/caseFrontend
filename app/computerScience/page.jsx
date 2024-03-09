@@ -77,6 +77,24 @@ export default function ComputerScience() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="good-news-container-second-div">
+                        <h2>Good News for Intermediate and Equivalent Pre-Medical Students</h2>
+                        <p>
+                            <span>All bachelor’s Programs of the Department of Computer Science are offered for FSC Pre-Medical students.</span>
+                            
+                            The National Computing Education & Accreditation
+                            Council (NCEAC) of HEC has approved the admissions in 
+                            Computing programs for those students who have done 
+                            intermediate education (FSC or equivalent) in 
+                            Pre-Medical with a minimum of 50% marks. These students
+                            are required to pass deficiency courses of Mathematics 
+                            of 6 credit hours within 1 year of their regular studies.
+                            The deficiency courses should cover most of the relevant topics
+                            to a Bachelor’s Degree in computing education from the 
+                            intermediate level of Mathematics.
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
