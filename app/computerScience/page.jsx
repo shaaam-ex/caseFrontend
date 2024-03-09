@@ -2,6 +2,7 @@ import Link from 'next/link';
 import './computerScience.css';
 
 import { Roboto } from 'next/font/google';
+import Counter from '../counter/page';
 const roboto = Roboto({
     subsets: ['latin'],
     weight: '400'
@@ -124,6 +125,7 @@ export default function ComputerScience() {
                         </ol>
                     </div>
                 </div>
+                <Counter />
             </div>
         </>
     )

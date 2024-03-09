@@ -1,0 +1,156 @@
+.counter-section-landing-page {
+    width: 98.8vw;
+    margin-top: 3vmax;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.second-div-counter-section-landing-page {
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+
+    background-color: #f2f2f2;
+
+    margin-bottom: 2vmax;
+}
+
+.graduates-container-counter-section {
+    height: 15.5vh;
+    margin-left: 2vmax;
+}
+
+.graduates-container-counter-section:last-child {
+    width: 6vw;
+    margin-left: 0;
+}
+
+.graduates-container-counter-section > h2 {
+    font-size: 19px;
+    width: 200px;
+}
+
+.graduates-container-counter-section > h1 {
+    font-size: 55px;
+    color: #0d3460;
+}
+
+
+@media screen and (max-width: 1740px) {
+    .graduates-container-counter-section {
+        height: 15.5vh;
+        margin-left: 2vmax;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 6vw;
+        margin-left: 0;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 0.9vmax;
+        width: 180px;
+    }
+    
+    .graduates-container-counter-section > h1 {
+        font-size: 2.5vmax;
+        color: #0d3460;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .graduates-container-counter-section {
+        height: 10vmax;
+        margin-left: 2vmax;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 6vw;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 1.2vmax;
+        width: 180px;
+    }
+    
+    .graduates-container-counter-section > h1 {
+        font-size: 3vmax;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .second-div-counter-section-landing-page {
+        width: 75vw;
+        height: 74vmax;
+        flex-direction: column;
+
+        margin-top: 2vmax;
+    }
+
+    .graduates-container-counter-section:first-child {
+        margin-top: 0px;
+    }
+
+    .graduates-container-counter-section {
+        height: 12vmax;
+        margin-top: 3vmax;
+        margin-left: 2vmax;
+        width: 230px;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 230px;
+        margin-left: 2vmax;
+        margin-top: 3vmax;
+
+        margin-bottom: 20px;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 2.5vmax;
+        width: 230px;
+    }
+    
+    .graduates-container-counter-section > h1 {
+        font-size: 4.5vmax;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .second-div-counter-section-landing-page {
+        width: 85vw;
+        height: 74vmax;
+        flex-direction: column;
+
+        margin-top: 2vmax;
+    }
+
+    .graduates-container-counter-section:first-child {
+        margin-top: 0px;
+    }
+
+    .graduates-container-counter-section {
+        height: 12vmax;
+        margin-top: 3vmax;
+        margin-left: 2vmax;
+        width: 230px;
+    }
+    
+    .graduates-container-counter-section:last-child {
+        width: 230px;
+        margin-left: 2vmax;
+        margin-top: 3vmax;
+
+        margin-bottom: 20px;
+    }
+    
+    .graduates-container-counter-section > h2 {
+        font-size: 2.5vmax;
+        width: 230px;
+    }
+}

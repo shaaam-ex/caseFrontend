@@ -243,6 +243,15 @@
 }
 
 .good-news-container-second-div > a {
+    color: #1d518c;
+    line-height: 32.4px;
+
+    margin-left: 0.4vmax;
+
+    transition: 0.22s ease-in-out;
+}
+
+.good-news-container-second-div > a:hover {
     color: #666666;
 }
 
@@ -280,6 +289,12 @@
 .available-cs-programs-div-second-div-computer-science > ol > li > a {
     color: #1d518c;
     line-height: 32.4px;
+
+    transition: 0.22s ease-in-out;
+}
+
+.available-cs-programs-div-second-div-computer-science > ol > li > a:hover {
+    color: #666666;
 }
 
 @media screen and (max-width: 1100px) {
