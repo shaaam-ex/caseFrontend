@@ -82,7 +82,8 @@ export default function ComputerScience() {
                         <h2>Good News for Intermediate and Equivalent Pre-Medical Students</h2>
                         <p>
                             <span>All bachelor’s Programs of the Department of Computer Science are offered for FSC Pre-Medical students.</span>
-                            
+                            <br />
+                            <br />
                             The National Computing Education & Accreditation
                             Council (NCEAC) of HEC has approved the admissions in 
                             Computing programs for those students who have done 
@@ -94,6 +95,10 @@ export default function ComputerScience() {
                             to a Bachelor’s Degree in computing education from the 
                             intermediate level of Mathematics.
                         </p>
+
+                        <h2>Fee Structure</h2>
+
+                        <a href="#">Get Fee Structure Details</a>
                     </div>
                 </div>
             </div>
