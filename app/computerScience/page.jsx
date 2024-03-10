@@ -30,6 +30,8 @@ export default function ComputerScience() {
                     <meta name="description" 
                         content="Computer Science Department, Sir Syed CASE Institute of technology. exton-cs.me"
                     />
+
+                    <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                 </head>
 
                 <div className="first-banner-container-computer-science">

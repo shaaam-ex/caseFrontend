@@ -39,6 +39,8 @@ export default function LandingPage() {
                     <meta name="description" 
                         content="Join one of the leading institutes of Pakistan, Sir Syed CASE Institute of Technology, Pakistan. exton-cs.me"
                     />
+
+                    <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                 </head>
                 
                 <div className="first-carousel-container-landing-page">
