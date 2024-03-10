@@ -2,5 +2,7 @@
 .main-container-footer {
     background-color: #05162e;
 
+    margin-top: 4vmax;
+
     height: 50vh;
 }
