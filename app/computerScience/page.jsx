@@ -18,6 +18,7 @@ export default function ComputerScience() {
             <div className="main-container-computer-science">
                 
                 <head>
+                    <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                     <title>Department of Computer Science - Sir Syed CASE Institute of Technology </title>
                     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -30,8 +31,6 @@ export default function ComputerScience() {
                     <meta name="description" 
                         content="Computer Science Department, Sir Syed CASE Institute of technology. exton-cs.me"
                     />
-
-                    <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                 </head>
 
                 <div className="first-banner-container-computer-science">

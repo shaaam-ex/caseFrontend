@@ -27,6 +27,7 @@ export default function LandingPage() {
             <div className="main-container-landing-page">
                 
                 <head>
+                    <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                     <title>Sir Syed CASE Institute of Technology - Home </title>
                     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -39,8 +40,6 @@ export default function LandingPage() {
                     <meta name="description" 
                         content="Join one of the leading institutes of Pakistan, Sir Syed CASE Institute of Technology, Pakistan. exton-cs.me"
                     />
-
-                    <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                 </head>
                 
                 <div className="first-carousel-container-landing-page">
