@@ -32,23 +32,25 @@ export default function Footer() {
                     <div className="inner-div-middle-div-container-footer">
                         <h2>Quick Links</h2>
 
-                        <a href="#">Degree Programs</a>
-                        <a href="#">Fee Structure</a>
-                        <a href="#">Downloads</a>
-                        <a href="#">CASE LMS</a>
-                        <a href="#">FAQs</a>
+                        <div className="quick-links-footer">
+                            <a href="#">Degree Programs</a>
+                            <a href="#">Fee Structure</a>
+                            <a href="#">Downloads</a>
+                            <a href="#">CASE LMS</a>
+                            <a href="#">FAQs</a>
+                        </div>
                     </div>
                 </div>
 
                 <div className="right-div-container-footer">
-                    <h2>Follow us</h2>
+                    {/* <h2>Follow us</h2>
 
-                    <h3>Our social links</h3>
+                    <h3>Our social links</h3> */}
 
-                    <BiLogoFacebook color='white' />
-                    <BiLogoLinkedin color='white' />
-                    <BiLogoInstagram color='white' />
-                    <BiLogoWhatsapp color='white' />
+                    <BiLogoFacebook className='clickable-social-links-footer' size={'25px'} color='white' />
+                    <BiLogoLinkedin className='clickable-social-links-footer' size={'25px'} color='white' />
+                    <BiLogoInstagram className='clickable-social-links-footer' size={'25px'} color='white' />
+                    <BiLogoWhatsapp className='clickable-social-links-footer' size={'25px'} color='white' />
 
                 </div>
             </div>
