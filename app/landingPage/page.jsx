@@ -27,7 +27,6 @@ export default function LandingPage() {
             <div className="main-container-landing-page">
                 
                 <head>
-                    <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                     <title>Sir Syed CASE Institute of Technology - Home </title>
                     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
