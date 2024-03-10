@@ -75,8 +75,6 @@
 
     display: flex;
     align-items: end;
-
-    padding-bottom: 13px;
 }
 
 .clickable-social-links-footer {
@@ -87,4 +85,28 @@
 .clickable-social-links-footer:hover {
     color: #b8b8b8;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container-footer {
+        flex-direction: column;
+        
+        height: 75vh;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .left-div-container-footer {
+        text-align: center;
+    }
+
+    .left-div-container-footer > img {
+        margin-bottom: 13px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .middle-div-container-footer {
+        gap: 2vmax;
+    }
 }
