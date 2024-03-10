@@ -4,8 +4,8 @@
   functions = "netlify/functions"
   publish = ".next"
 
-# [build.environment]
-#   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[redirects]]
   from = "/*"
