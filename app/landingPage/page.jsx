@@ -19,16 +19,23 @@ import WelcomeCard from '../layouts/welcomeCard/welcomeCard';
 import { useEffect, useRef, useState } from 'react';
 import Counter from '../counter/page';
 
-
+import { Head } from 'next/head';
 
 export default function LandingPage() {
     return (
         <>
             <div className="main-container-landing-page">
-                <title>HOME | Sir Syed CASE Institute of Technology</title>
-                <meta name="description" content="Sir Syed CASE Institute Of Technology clone, developed by NOTAHTI123" />
-
-                <meta name="google-site-verification" content="E65Gsomi0gWK7-xcK9u0MDmE7bMNtorAforbhdLxMk0" />
+                
+                <head>
+                    <title>Sir Syed CASE Institute of Technology - Home </title>
+                    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+                    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                    <link rel="manifest" href="/site.webmanifest" />
+                    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+                    <meta name="msapplication-TileColor" content="#da532c" />
+                    <meta name="theme-color" content="#ffffff"></meta>
+                </head>
                 
                 <div className="first-carousel-container-landing-page">
                     <Swiper
