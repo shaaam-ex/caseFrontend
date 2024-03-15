@@ -5,7 +5,7 @@ body {
 
 .main-container-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     padding: 1vmax;
@@ -22,8 +22,53 @@ body {
     font-weight: lighter; /* You can adjust this value according to your preference */
 }
 
+.logo-container-header {
+}
+
+.clickable-hoverable-links-header {
+    display: flex;
+    gap: 3vmax;
+    padding: 0;
+
+    color: black;
+
+}
+
+.clickable-hoverable-links-header > li {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.clickable-hoverable-links-header > li > a {
+    text-decoration: none;
+    color: black;
+
+    transition: 0.22s ease-in-out;
+}
+
+
+.clickable-hoverable-links-header > li > a:hover {
+    user-select: none;
+    cursor: pointer;
+
+    color: #666666;
+}
+
+
+.right-div-container-header > img  {
+    height: 70px;
+    width: 70px;
+}
+
+.drop-down-icon {
+    font-size: 15px;
+}
+
 @media screen and (max-width: 425px) {
-    .logo-container-header > img {
+    .logo-container-header > img,
+    .right-div-container-header > img {
         width: 20vmax;
     }
 }
