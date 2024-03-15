@@ -11,6 +11,8 @@ body {
     padding: 1vmax;
 
     box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 7px;
+
+    height: 10vh;
 }
 
 .hamburger-menu-button-header {
@@ -34,14 +36,14 @@ body {
 
 }
 
-.clickable-hoverable-links-header > li {
+li {
     list-style: none;
 
     display: flex;
     align-items: center;
 }
 
-.clickable-hoverable-links-header > li > a {
+li > a {
     text-decoration: none;
     color: black;
 
@@ -64,6 +66,53 @@ body {
 
 .drop-down-icon {
     font-size: 15px;
+}
+
+.absolute-child-drop-down-container {
+    position: relative;
+}
+
+.container-available-options-drop-down-menu {
+    padding: 0;
+
+    position: absolute;
+    top: 2vh;
+    left: -4vmax;
+
+    background-color: white;
+
+    z-index: 999;
+
+    height: fit-content;
+    width: 13vw;
+    padding-bottom: 10px;
+    padding-top: 42px;
+
+
+    flex-direction: column;
+    align-items: center;
+
+    gap: 1vmax;
+
+    border-bottom: 5px solid #0d3460;
+
+    display: none;
+
+    transition: 0.42s ease-in-out;
+}
+
+.absolute-child-drop-down-container:hover .container-available-options-drop-down-menu,
+.container-available-options-drop-down-menu:hover {
+    display: flex;
+}
+
+.clickable-link-inner-drop-down {
+    transition: 0.22s all;
+}
+
+.clickable-link-inner-drop-down:hover {
+    color: #666666;
+    transform: scaleX(1.05);
 }
 
 @media screen and (max-width: 425px) {
