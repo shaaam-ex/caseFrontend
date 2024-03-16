@@ -285,6 +285,55 @@
     color: white; 
 }
 
+.clickable-announcements-popup {
+    color: black;
+}
+
+.announcements-pop-up-menu-landing-page {
+    display: flex;
+    align-items: center;
+
+    gap: 0.3vmax;
+
+    border: 2px solid;
+    border-radius: 23px;
+
+    padding: 0 0.8vmax;
+
+    position: fixed;
+    right: 4vw;
+    bottom: 4vh;
+
+    float: right;
+
+    width: fit-content;
+
+    transition: 0.32s ease-in-out;
+
+    z-index: 998;
+}
+
+.announcements-pop-up-menu-landing-page:hover {
+    cursor: pointer;
+
+    transform: scale(1.06, 1.06);
+}
+
+.megaphone-icon-landing-page {
+    font-size: 16px;
+}
+
+.announcements-pop-up-menu-landing-page > p {
+    font-size: 13px;
+}
+
+.second-carousel-offered-programs-landing-page {
+    border: 1px solid red;
+    height: 50vh;
+    width: 50vw;
+
+    margin-top: 2vmax;
+}
 
 @media screen and (max-width: 1740px) {
     .left-div-welcome-section {

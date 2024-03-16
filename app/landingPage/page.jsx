@@ -15,6 +15,8 @@ import './landingPage.css';
 import Link from 'next/link';
 
 import { CiCircleChevDown } from "react-icons/ci";
+import { RiMegaphoneLine } from "react-icons/ri";
+
 import WelcomeCard from '../layouts/welcomeCard/welcomeCard';
 import { useEffect, useRef, useState } from 'react';
 import Counter from '../counter/page';
@@ -105,6 +107,13 @@ export default function LandingPage() {
                     </Swiper>
                 </div>
 
+                <Link className='clickable-announcements-popup' href='/announcements'>
+                    <div className="announcements-pop-up-menu-landing-page">
+                            <RiMegaphoneLine className='megaphone-icon-landing-page' />
+                            <p>Announcements</p>
+                    </div>
+                </Link>
+
                 <div className="second-container-arrow-down">
                     <Link className='arrow-down-button' href={'#welcome-section'}><CiCircleChevDown className='arrow-down-svg' /></Link>
                 </div>
@@ -138,6 +147,54 @@ export default function LandingPage() {
                                 with the skills to launch your career in a field that inspires 
                                 you.&quot;
                             </h3>
+                    </div>
+
+                    <div className="second-carousel-offered-programs-landing-page">
+                        <Swiper
+                            slidesPerView={2}
+                            spaceBetween={30}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            modules={[Pagination]}
+                            className="mySwiper"
+                        >
+                            <SwiperSlide>
+                                Slide 1
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 2
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 3
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 4
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 5
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 6
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 7
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 8
+                            </SwiperSlide>
+
+                            <SwiperSlide>
+                                Slide 9
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </div>
 

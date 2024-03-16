@@ -2,7 +2,9 @@
 
 import Link from 'next/link';
 import './header.css';
+
 import { MdMenu, MdArrowDropDown } from "react-icons/md";
+
 import { useEffect } from 'react';
 
 export default function Header() {
@@ -38,6 +40,7 @@ export default function Header() {
                             <ul className='container-available-options-drop-down-menu'>
                                 <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Computer Science</Link></li>
                                 <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Electrical Engineering</Link></li>
+                                <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>BBA</Link></li>
                             </ul>
                         </li> {/* DropDown */}
 

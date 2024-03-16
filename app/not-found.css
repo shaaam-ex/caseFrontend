@@ -1,0 +1,18 @@
+.page-not-found-main-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-page-not-found-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-page-not-found-container > img {
+    height: 145px;
+    width: 145px;
+}
