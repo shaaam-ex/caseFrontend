@@ -86,7 +86,9 @@ li > a {
     height: fit-content;
     width: 13vw;
     padding-bottom: 10px;
-    padding-top: 42px;
+    padding-top: 32px;
+
+    margin-top: 0.2vmax;
 
 
     flex-direction: column;
@@ -95,10 +97,10 @@ li > a {
     gap: 1vmax;
 
     border-bottom: 5px solid #0d3460;
+    transition: 0.42s ease-in-out;
 
     display: none;
 
-    transition: 0.42s ease-in-out;
 }
 
 .absolute-child-drop-down-container:hover .container-available-options-drop-down-menu,
