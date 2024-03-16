@@ -160,39 +160,68 @@ export default function LandingPage() {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                Slide 1
+                                <div className="swiper-card-second-carousel-container">
+                                    <div className="first-inner-container-swiper-card-second">
+                                        <img src="https://case.edu.pk/wp-content/uploads/2023/06/computer-science.webp" alt="" />
+                                    </div>
+
+                                    <div className="second-inner-container-swiper-card-second">
+                                        <h1>Department of Computer Science</h1>
+                                        <p>Prepare future Computer Scientists to achieve excellence in the core competencies of computer science that enable them to effectively</p>
+                                    </div>
+                                </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                Slide 2
+                                <div className="swiper-card-second-carousel-container">
+                                    <div className="first-inner-container-swiper-card-second">
+                                        <img src="https://case.edu.pk/wp-content/uploads/2023/06/dept-ee.webp" alt="" />
+                                    </div>
+                                    
+                                    <div className="second-inner-container-swiper-card-second">
+                                        <h1>Department of Electrical Engineering</h1>
+                                        <p>The Electrical And Computer Engineering Department At SS-CASE-IT Offers Interesting And Challenging Career Paths For Our Future Engineers.</p>
+                                    </div>
+                                </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                Slide 3
+                                <div className="swiper-card-second-carousel-container">
+                                    <div className="first-inner-container-swiper-card-second">
+                                        <img src="https://case.edu.pk/wp-content/uploads/2023/06/c-manag.webp" alt="" />
+                                    </div>
+                                    
+                                    <div className="second-inner-container-swiper-card-second">
+                                        <h1>Department of Management Sciences</h1>
+                                        <p>Welcome to one of the best management degree programs that provide state-of-the-art education in the field of Management.</p>
+                                    </div>
+                                </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                Slide 4
+                                <div className="swiper-card-second-carousel-container">
+                                    <div className="first-inner-container-swiper-card-second">
+                                        <img src="https://case.edu.pk/wp-content/uploads/2023/06/sh.webp" alt="" />
+                                    </div>
+                                    
+                                    <div className="second-inner-container-swiper-card-second">
+                                        <h1>Department of Sciences and Humanities</h1>
+                                        <p>Welcome to one of the best management degree programs that provide state-of-the-art education in the field of Management.</p>
+                                    </div>
+                                </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
-                                Slide 5
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                Slide 6
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                Slide 7
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                Slide 8
-                            </SwiperSlide>
-
-                            <SwiperSlide>
-                                Slide 9
+                                <div className="swiper-card-second-carousel-container">
+                                    <div className="first-inner-container-swiper-card-second">
+                                        <img src="https://case.edu.pk/wp-content/uploads/2024/02/MedicalImg.png" alt="" />
+                                    </div>
+                                    
+                                    <div className="second-inner-container-swiper-card-second">
+                                        <h1>Department of Allied Medical and Health Sciences</h1>
+                                        <p>Transformative journey towards a rewarding career in the health sciences in Pakistan and abroad.</p>
+                                    </div>
+                                </div>
                             </SwiperSlide>
                         </Swiper>
                     </div>

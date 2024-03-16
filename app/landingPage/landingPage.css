@@ -328,11 +328,40 @@
 }
 
 .second-carousel-offered-programs-landing-page {
-    border: 1px solid red;
-    height: 50vh;
-    width: 50vw;
+    height: 60vh;
+    width: 70vw;
 
     margin-top: 2vmax;
+    
+    overflow-y: hidden;
+
+    display: flex;
+    align-items: center;
+}
+
+.swiper-card-second-carousel-container {
+    display: flex;
+}
+
+.first-inner-container-swiper-card-second > img {
+    height: 55vh;
+}
+
+.second-inner-container-swiper-card-second {
+    display: flex;
+    flex-direction: column;
+
+    width: 15vw;
+}
+
+.second-inner-container-swiper-card-second > h1 {
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.second-inner-container-swiper-card-second > p {
+    font-family: "Playfair Display";
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1740px) {

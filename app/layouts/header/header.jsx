@@ -40,7 +40,9 @@ export default function Header() {
                             <ul className='container-available-options-drop-down-menu'>
                                 <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Computer Science</Link></li>
                                 <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Electrical Engineering</Link></li>
-                                <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>BBA</Link></li>
+                                <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Management Sciences</Link></li>
+                                <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Sciences and humanities</Link></li>
+                                <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Medical Sciences</Link></li>
                             </ul>
                         </li> {/* DropDown */}
 
