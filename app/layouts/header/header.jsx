@@ -62,7 +62,51 @@ export default function Header() {
                 </div>
 
                 <div className="right-div-container-header">
-                    {/* <MdMenu className='hamburger-menu-button-header' /> */}
+                    <div className="hamburger-menu-header">
+                        <MdMenu className='hamburger-menu-button-header' />
+                        <ul className='clickable-hoverable-links-header'>
+                            <li>
+                                <Link href='/landingPage'>Home</Link>
+                            </li>
+
+                            <li className='absolute-child-drop-down-container'>
+                                <Link href='#'>Admissions</Link><MdArrowDropDown className='drop-down-icon' />
+
+                                <ul className='container-available-options-drop-down-menu'>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Offered Programs</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>How to Apply</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Eligibility Criteria</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Scholarships</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Fee Structure</Link></li>
+                                </ul>
+                            </li> {/* DropDown */}
+
+                            <li className='absolute-child-drop-down-container'>
+                                <Link href='#'>Departments</Link><MdArrowDropDown className='drop-down-icon' />
+
+                                <ul className='container-available-options-drop-down-menu'>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Computer Science</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Electrical Engineering</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Management Sciences</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Sciences and humanities</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Medical Sciences</Link></li>
+                                </ul>
+                            </li> {/* DropDown */}
+
+                            <li className='absolute-child-drop-down-container'>
+                                <Link href='#'>Portal</Link><MdArrowDropDown className='drop-down-icon' />
+
+                                <ul className='container-available-options-drop-down-menu'>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Faculty Portal</Link></li>
+                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger' href='#'>Student Portal</Link></li>
+                                </ul>
+                            </li> {/* DropDown */}
+
+                            <li>
+                                <Link href='#'>About</Link>
+                            </li>
+                        </ul>
+                    </div>
                     <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1710505935/case/e0gkiton8cke4sukhjbg.png" alt="" />
                 </div>
             </div>
