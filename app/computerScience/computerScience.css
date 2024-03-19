@@ -39,7 +39,7 @@
 .content-first-banner-container-computer-science {
     position: absolute;
     color: white;
-    z-index: 999;
+    z-index: 666;
 
     display: flex;
     justify-content: center;

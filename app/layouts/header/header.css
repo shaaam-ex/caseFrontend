@@ -26,9 +26,6 @@ body {
     font-weight: lighter; /* You can adjust this value according to your preference */
 }
 
-.logo-container-header {
-}
-
 .clickable-hoverable-links-header {
     display: flex;
     gap: 3vmax;
@@ -58,6 +55,10 @@ li > a {
     cursor: pointer;
 
     color: #666666;
+}
+
+.right-div-container-header {
+    overflow-x: hidden;
 }
 
 
@@ -109,6 +110,10 @@ li > a {
 
 }
 
+.container-available-options-drop-down-menu-hamburger {
+    display: none;
+}
+
 .absolute-child-drop-down-container:hover .container-available-options-drop-down-menu,
 .container-available-options-drop-down-menu:hover {
     display: flex;
@@ -129,6 +134,7 @@ li > a {
         padding: 0 3vmax;
 
         overflow-x: hidden;
+        z-index: 1000;
     }
 
     .middle-div-container-header {
@@ -141,7 +147,17 @@ li > a {
 
     .hamburger-menu-header {
         display: block;
-        transform: translateX(1500px);
+        transition: 0.22s ease-in-out;
+    }
+
+    .hamburger-menu-button-header {
+        display: block;
+        font-size: 36px;
+    }
+
+    .hamburger-menu-button-header.close {
+        position: absolute;
+        right: 20px;
     }
 
     .clickable-hoverable-links-header-hamburger {
@@ -157,13 +173,19 @@ li > a {
 
         background-color: white;
 
-        /* gap: 3vmax; */
+        transition: 0.42s ease-in-out;
+
+        transform: translateX(900px);
+    }
+
+    .clickable-hoverable-links-header-hamburger.visible {
+        transform: translateX(0);
     }
 
     .absolute-child-drop-down-container-hamburger {
         height: 80px;
 
-        margin: 1vmax 0;
+        margin: 20px 0;
 
         display: flex;
         justify-content: space-between;
@@ -173,10 +195,6 @@ li > a {
     .default-playfair-link, a {
         font-family: "Playfair Display";
         font-size: 26px;
-    }
-
-    .hamburger-menu-button-header {
-        display: block;
     }
 }
 

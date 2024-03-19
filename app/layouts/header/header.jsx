@@ -3,11 +3,17 @@
 import Link from 'next/link';
 import './header.css';
 
-import { MdMenu, MdArrowDropDown } from "react-icons/md";
+import { MdMenu, MdArrowDropDown, MdClose } from "react-icons/md";
 
 import { useEffect } from 'react';
 
 export default function Header() {
+
+    function handleHamburger() {
+        const menuHeader = document.querySelector('.clickable-hoverable-links-header-hamburger');
+        menuHeader.classList.toggle('visible');
+        console.log('called');
+    }
     
     return (
         <>
@@ -62,17 +68,18 @@ export default function Header() {
                 </div>
 
                 <div className="right-div-container-header">
+                    <MdMenu className='hamburger-menu-button-header' onClick={handleHamburger} />
                     <div className="hamburger-menu-header">
-                        <MdMenu className='hamburger-menu-button-header' />
                         <ul className='clickable-hoverable-links-header-hamburger'>
+                            <MdClose className='hamburger-menu-button-header close' onClick={handleHamburger} />
                             <li className='absolute-child-drop-down-container-hamburger'>
-                                <Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='/landingPage'>Home</Link>
+                                <Link style={{marginTop: '50px'}} className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='/landingPage'>Home</Link>
                             </li>
 
                             <li className='absolute-child-drop-down-container-hamburger'>
                                 <Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Admissions</Link><MdArrowDropDown className='drop-down-icon' />
 
-                                <ul className='container-available-options-drop-down-menu'>
+                                <ul className='container-available-options-drop-down-menu-hamburger'>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Offered Programs</Link></li>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>How to Apply</Link></li>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Eligibility Criteria</Link></li>
@@ -84,7 +91,7 @@ export default function Header() {
                             <li className='absolute-child-drop-down-container-hamburger'>
                                 <Link href='#'>Departments</Link><MdArrowDropDown className='drop-down-icon' />
 
-                                <ul className='container-available-options-drop-down-menu'>
+                                <ul className='container-available-options-drop-down-menu-hamburger'>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Computer Science</Link></li>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Electrical Engineering</Link></li>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Management Sciences</Link></li>
@@ -96,7 +103,7 @@ export default function Header() {
                             <li className='absolute-child-drop-down-container-hamburger'>
                                 <Link href='#'>Portal</Link><MdArrowDropDown className='drop-down-icon' />
 
-                                <ul className='container-available-options-drop-down-menu'>
+                                <ul className='container-available-options-drop-down-menu-hamburger'>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Faculty Portal</Link></li>
                                     <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Student Portal</Link></li>
                                 </ul>
