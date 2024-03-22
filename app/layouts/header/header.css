@@ -1,4 +1,4 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
 }
@@ -13,6 +13,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 7px;
 
     height: 10vh;
+    overflow-x: hidden;
 }
 
 .hamburger-menu-button-header {
@@ -133,7 +134,6 @@ li > a {
         justify-content: space-between;
         padding: 0 3vmax;
 
-        overflow-x: hidden;
         z-index: 1000;
     }
 
@@ -149,6 +149,7 @@ li > a {
         display: block;
         transition: 0.22s ease-in-out;
     }
+    
 
     .hamburger-menu-button-header {
         display: block;
@@ -176,6 +177,8 @@ li > a {
         transition: 0.42s ease-in-out;
 
         transform: translateX(900px);
+
+        z-index: 1000;
     }
 
     .clickable-hoverable-links-header-hamburger.visible {

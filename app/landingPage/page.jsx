@@ -14,7 +14,7 @@ import 'swiper/css/navigation';
 import './landingPage.css';
 import Link from 'next/link';
 
-import { CiCircleChevDown } from "react-icons/ci";
+import { CiCircleChevDown, CiCircleChevLeft, CiCircleChevRight  } from "react-icons/ci";
 import { RiMegaphoneLine } from "react-icons/ri";
 
 import WelcomeCard from '../layouts/welcomeCard/welcomeCard';
@@ -150,14 +150,24 @@ export default function LandingPage() {
                     </div>
 
                     <div className="second-carousel-offered-programs-landing-page">
+                        <button className="swiper-button-prev-second"><CiCircleChevLeft /></button>
                         <Swiper
+                            pagination={true}
+                            modules={[Pagination, Autoplay, Navigation]}
+                            autoplay={{
+                                delay: 4500,
+                                disableOnInteraction: false,
+                            }}
+                            speed={1200}
+                            navigation={{
+                                nextEl: '.swiper-button-next-second',
+                                prevEl: '.swiper-button-prev-second',
+                                enabled: true,
+                            }}
                             slidesPerView={2}
                             spaceBetween={30}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            modules={[Pagination]}
-                            className="mySwiper"
+
+                            className='second-carousel-container'
                         >
                             <SwiperSlide>
                                 <div className="swiper-card-second-carousel-container">
@@ -168,6 +178,8 @@ export default function LandingPage() {
                                     <div className="second-inner-container-swiper-card-second">
                                         <h1>Department of Computer Science</h1>
                                         <p>Prepare future Computer Scientists to achieve excellence in the core competencies of computer science that enable them to effectively</p>
+
+                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -181,6 +193,8 @@ export default function LandingPage() {
                                     <div className="second-inner-container-swiper-card-second">
                                         <h1>Department of Electrical Engineering</h1>
                                         <p>The Electrical And Computer Engineering Department At SS-CASE-IT Offers Interesting And Challenging Career Paths For Our Future Engineers.</p>
+                                        
+                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -194,6 +208,8 @@ export default function LandingPage() {
                                     <div className="second-inner-container-swiper-card-second">
                                         <h1>Department of Management Sciences</h1>
                                         <p>Welcome to one of the best management degree programs that provide state-of-the-art education in the field of Management.</p>
+                                        
+                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -207,6 +223,8 @@ export default function LandingPage() {
                                     <div className="second-inner-container-swiper-card-second">
                                         <h1>Department of Sciences and Humanities</h1>
                                         <p>Welcome to one of the best management degree programs that provide state-of-the-art education in the field of Management.</p>
+                                        
+                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -220,10 +238,13 @@ export default function LandingPage() {
                                     <div className="second-inner-container-swiper-card-second">
                                         <h1>Department of Allied Medical and Health Sciences</h1>
                                         <p>Transformative journey towards a rewarding career in the health sciences in Pakistan and abroad.</p>
+                                        
+                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
                         </Swiper>
+                        <button className="swiper-button-next-second"><CiCircleChevRight /></button>
                     </div>
                 </div>
 
