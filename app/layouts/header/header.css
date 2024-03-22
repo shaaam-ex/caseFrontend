@@ -13,7 +13,6 @@ body, html {
     box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 7px;
 
     height: 10vh;
-    overflow-x: hidden;
 }
 
 .hamburger-menu-button-header {
