@@ -337,7 +337,7 @@
 
     margin-top: 2vmax;
     
-    overflow-x: hi;
+    overflow-x: hidden;
     overflow-y: hidden;
 
     display: flex;
