@@ -380,6 +380,12 @@
     border-radius: 13px;
 
     padding: 0 1vmax;
+
+    transition: 0.32s all;
+}
+
+.swiper-card-second-carousel-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .first-inner-container-swiper-card-second > img {

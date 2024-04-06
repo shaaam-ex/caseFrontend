@@ -169,7 +169,7 @@ export default function LandingPage() {
 
                             className='second-carousel-container'
                         >
-                            <SwiperSlide>
+                            <SwiperSlide className='swiper-card-second-carousel-parent'>
                                 <div className="swiper-card-second-carousel-container">
                                     <div className="first-inner-container-swiper-card-second">
                                         <img src="https://case.edu.pk/wp-content/uploads/2023/06/computer-science.webp" alt="" />
@@ -184,7 +184,7 @@ export default function LandingPage() {
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide>
+                            <SwiperSlide className='swiper-card-second-carousel-parent'>
                                 <div className="swiper-card-second-carousel-container">
                                     <div className="first-inner-container-swiper-card-second">
                                         <img src="https://case.edu.pk/wp-content/uploads/2023/06/dept-ee.webp" alt="" />
@@ -199,7 +199,7 @@ export default function LandingPage() {
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide>
+                            <SwiperSlide className='swiper-card-second-carousel-parent'>
                                 <div className="swiper-card-second-carousel-container">
                                     <div className="first-inner-container-swiper-card-second">
                                         <img src="https://case.edu.pk/wp-content/uploads/2023/06/c-manag.webp" alt="" />
@@ -214,7 +214,7 @@ export default function LandingPage() {
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide>
+                            <SwiperSlide className='swiper-card-second-carousel-parent'>
                                 <div className="swiper-card-second-carousel-container">
                                     <div className="first-inner-container-swiper-card-second">
                                         <img src="https://case.edu.pk/wp-content/uploads/2023/06/sh.webp" alt="" />
@@ -229,7 +229,7 @@ export default function LandingPage() {
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide>
+                            <SwiperSlide className='swiper-card-second-carousel-parent'>
                                 <div className="swiper-card-second-carousel-container">
                                     <div className="first-inner-container-swiper-card-second">
                                         <img src="https://case.edu.pk/wp-content/uploads/2024/02/MedicalImg.png" alt="" />
