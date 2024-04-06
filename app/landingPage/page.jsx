@@ -154,11 +154,12 @@ export default function LandingPage() {
                         <Swiper
                             pagination={true}
                             modules={[Pagination, Autoplay, Navigation]}
-                            autoplay={{
-                                delay: 4500,
-                                disableOnInteraction: false,
-                            }}
-                            speed={1200}
+                            // autoplay={{
+                            //     delay: 4500,
+                            //     disableOnInteraction: false,
+                            //     pauseOnMouseEnter: true,
+                            // }}
+                            // speed={1200}
                             navigation={{
                                 nextEl: '.swiper-button-next-second',
                                 prevEl: '.swiper-button-prev-second',
@@ -168,6 +169,17 @@ export default function LandingPage() {
                             spaceBetween={30}
 
                             className='second-carousel-container'
+                            
+                            breakpoints={{
+                                1200: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30
+                                },
+
+                                330: {
+                                    slidesPerView: 1,
+                                }
+                            }}
                         >
                             <SwiperSlide className='swiper-card-second-carousel-parent'>
                                 <div className="swiper-card-second-carousel-container">
