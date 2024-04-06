@@ -653,7 +653,6 @@
     }
 }
 
-
 @media screen and (max-width: 425px) {
 
     .first-banner-admissions,
@@ -716,5 +715,49 @@
     .graduates-container-counter-section > h2 {
         font-size: 2.5vmax;
         width: 230px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #welcome-section > h1 {
+        font-size: 58px;
+        transition: 0.32s ease-in-out;
+    }
+
+    .second-carousel-offered-programs-landing-page {
+        height: 90vh;
+    }
+
+    .swiper-card-second-carousel-container{
+        width: 70vw;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .second-inner-container-swiper-card-second {
+        width: 80%;
+        height: 80%;
+    }
+
+    .first-inner-container-swiper-card-second > img {
+        height: 26vh;
+        width: 50vw;
+        margin-top: 1vmax;
+        margin-bottom: 1vmax;
+    }
+
+    .second-inner-container-swiper-card-second > h1 {
+        font-size: 20px;
+    }
+
+    .second-inner-container-swiper-card-second > p {
+        font-size: 15px;
+    }
+
+    .view-details-button-second-carousel {
+        padding: 10px;
+        font-size: 16px;
+
+        margin-top: 2vmax;
     }
 }

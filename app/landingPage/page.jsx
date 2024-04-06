@@ -22,12 +22,12 @@ import { useEffect, useRef, useState } from 'react';
 import Counter from '../counter/page';
 
 import { Head } from 'next/head';
+import dynamic from 'next/dynamic';
 
 export default function LandingPage() {
     return (
         <>
             <div className="main-container-landing-page">
-                
                 <head>
                     <link rel="canonical" href="https://case.exton-cs.me/landingpage" />
                     <title>Sir Syed CASE Institute of Technology - Home </title>
@@ -172,11 +172,15 @@ export default function LandingPage() {
                             
                             breakpoints={{
                                 1200: {
-                                    slidesPerView: 2,
+                                    slidesPerView: 3,
                                     spaceBetween: 30
                                 },
 
-                                330: {
+                                925: {
+                                    slidesPerView: 2,
+                                },
+
+                                300: {
                                     slidesPerView: 1,
                                 }
                             }}
