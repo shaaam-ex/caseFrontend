@@ -38,6 +38,8 @@ export default function LandingPage() {
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
                     <meta name="msapplication-TileColor" content="#da532c" />
                     <meta name="theme-color" content="#ffffff"></meta>
+
+
                     
                     <meta name="description" 
                         content="Join one of the leading institutes of Pakistan, Sir Syed CASE Institute of Technology, Pakistan. exton-cs.me"
