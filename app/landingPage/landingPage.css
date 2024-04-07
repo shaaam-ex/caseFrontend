@@ -301,22 +301,47 @@
 
     gap: 0.3vmax;
 
-    border: 2px solid;
+    border: 2px solid rgb(102, 101, 101);
     border-radius: 23px;
 
     padding: 0 0.8vmax;
 
     position: fixed;
-    right: 4vw;
+    right: -1vw;
     bottom: 4vh;
 
     float: right;
 
-    width: fit-content;
+    width: 25px;
+    height: 5vh;
 
     transition: 0.32s ease-in-out;
 
     z-index: 998;
+
+    background-color: white;
+}
+
+.available-announcements-count {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    width: 16px;
+    height: 16px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    position: absolute;
+
+    top: -5px;
+    left: -4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 0.2px;
 }
 
 .announcements-pop-up-menu-landing-page:hover {
@@ -326,7 +351,9 @@
 }
 
 .megaphone-icon-landing-page {
-    font-size: 16px;
+    font-size: 20px;
+    position: relative;
+    left: -8px;
 }
 
 .announcements-pop-up-menu-landing-page > p {

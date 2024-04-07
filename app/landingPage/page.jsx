@@ -26,6 +26,8 @@ import dynamic from 'next/dynamic';
 
 export default function LandingPage() {
 
+    const [announcementsCount, setAnnouncementsCount] = useState(0);
+
     return (
         <>
             <div className="main-container-landing-page">
@@ -106,8 +108,11 @@ export default function LandingPage() {
 
                 <Link className='clickable-announcements-popup' href='/announcements'>
                     <div className="announcements-pop-up-menu-landing-page">
+                            <div className="available-announcements-count">
+                                {announcementsCount}
+                            </div>
                             <RiMegaphoneLine className='megaphone-icon-landing-page' />
-                            <p>Announcements</p>
+                            {/* <p>Announcements</p> */}
                     </div>
                 </Link>
 
