@@ -212,7 +212,7 @@ export default function LandingPage() {
                                         <h1>Department of Electrical Engineering</h1>
                                         <p>The Electrical And Computer Engineering Department At SS-CASE-IT Offers Interesting And Challenging Career Paths For Our Future Engineers.</p>
                                         
-                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
+                                        <Link className='view-details-button-second-carousel' href='#'>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -227,7 +227,7 @@ export default function LandingPage() {
                                         <h1>Department of Management Sciences</h1>
                                         <p>Welcome to one of the best management degree programs that provide state-of-the-art education in the field of Management.</p>
                                         
-                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
+                                        <Link className='view-details-button-second-carousel' href='#'>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -242,7 +242,7 @@ export default function LandingPage() {
                                         <h1>Department of Sciences and Humanities</h1>
                                         <p>Welcome to one of the best management degree programs that provide state-of-the-art education in the field of Management.</p>
                                         
-                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
+                                        <Link className='view-details-button-second-carousel' href='#'>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -257,7 +257,7 @@ export default function LandingPage() {
                                         <h1>Department of Allied Medical and Health Sciences</h1>
                                         <p>Transformative journey towards a rewarding career in the health sciences in Pakistan and abroad.</p>
                                         
-                                        <Link className='view-details-button-second-carousel' href={'/computerScience'}>View Details</Link>
+                                        <Link className='view-details-button-second-carousel' href='#'>View Details</Link>
                                     </div>
                                 </div>
                             </SwiperSlide>

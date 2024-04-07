@@ -75,7 +75,7 @@ export default function Header() {
                             <Link href='#'>Departments</Link><MdArrowDropDown className='drop-down-icon' />
 
                             <ul className='container-available-options-drop-down-menu'>
-                                <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Computer Science</Link></li>
+                                <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='/computerScience'>Computer Science</Link></li>
                                 <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Electrical Engineering</Link></li>
                                 <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Management Sciences</Link></li>
                                 <li className='clickable-available-link-drop-down-menu'><Link className='clickable-link-inner-drop-down' href='#'>Sciences and humanities</Link></li>
