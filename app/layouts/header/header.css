@@ -19,6 +19,8 @@ body, html {
     z-index: 999;
     width: 100vw;
     background-color: white;
+
+    transition: 0.22s ease-in-out;
 }
 
 .logo-container-header > img {

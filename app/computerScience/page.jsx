@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link';
 import './computerScience.css';
 
@@ -6,12 +8,17 @@ import { Head } from 'next/head';
 
 import { Roboto } from 'next/font/google';
 import Counter from '../counter/page';
+import { useEffect } from 'react';
 const roboto = Roboto({
     subsets: ['latin'],
     weight: '400'
 })
 
 export default function ComputerScience() {
+
+    useEffect(() => {
+        document.querySelector('.main-container-header').style.height = '15vh';
+    }, [])
 
     return (
         <>

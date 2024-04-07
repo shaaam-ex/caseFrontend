@@ -19,6 +19,7 @@ export default function Header() {
 
     function handleScrollHeader(e) {
         if (screen.width > 800) {
+            let main_container_header = document.querySelector('.main-container-header');
             let caseMainImg = document.querySelector('.logo-container-header > img');
             let caseLastImgIEEE = document.querySelector('.right-div-container-header > img');
 
@@ -30,6 +31,9 @@ export default function Header() {
 
                 caseLastImgIEEE.style.height = '55px';
                 caseLastImgIEEE.style.width = '55px';
+
+                main_container_header.style.height = '10vh';
+                main_container_header.style.padding = '0';
             }
 
             else {
@@ -38,6 +42,8 @@ export default function Header() {
             
                 caseLastImgIEEE.style.height = '70px'
                 caseLastImgIEEE.style.width = '70px';
+
+                main_container_header.style.height = '15vh';
             }
         }
     }
