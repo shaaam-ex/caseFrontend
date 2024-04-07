@@ -18,25 +18,27 @@ export default function Header() {
     }
 
     function handleScrollHeader(e) {
-        let caseMainImg = document.querySelector('.logo-container-header > img');
-        let caseLastImgIEEE = document.querySelector('.right-div-container-header > img');
+        if (screen.width > 800) {
+            let caseMainImg = document.querySelector('.logo-container-header > img');
+            let caseLastImgIEEE = document.querySelector('.right-div-container-header > img');
 
-        let currentScrollPosition = window.scrollY;
+            let currentScrollPosition = window.scrollY;
         
-        if(currentScrollPosition > initialScrollPosition) {
-            caseMainImg.style.height = '55px';
-            caseMainImg.style.width = '195px';
+            if(currentScrollPosition > initialScrollPosition) {
+                caseMainImg.style.height = '55px';
+                caseMainImg.style.width = '195px';
 
-            caseLastImgIEEE.style.height = '55px';
-            caseLastImgIEEE.style.width = '55px';
-        }
+                caseLastImgIEEE.style.height = '55px';
+                caseLastImgIEEE.style.width = '55px';
+            }
 
-        else {
-            caseMainImg.style.height = '70px';
-            caseMainImg.style.width = '224px';
+            else {
+                caseMainImg.style.height = '70px';
+                caseMainImg.style.width = '224px';
             
-            caseLastImgIEEE.style.height = '70px'
-            caseLastImgIEEE.style.width = '70px';
+                caseLastImgIEEE.style.height = '70px'
+                caseLastImgIEEE.style.width = '70px';
+            }
         }
     }
 
