@@ -166,7 +166,7 @@
     color: #000000;
     
     width: 565px;
-    height: fit-content;
+    min-height: fit-content;
 }
 
 .mission-statement-div-cs > h1 {
@@ -332,6 +332,22 @@
 }
 
 @media screen and (max-width: 1100px) {
+    .mission-statement-accreditation-div-second-div-container-computer-science {
+        width: 80vw;
+    }
+
+    .current-directory-div-second-div-computer-science {
+        width: 80vw;
+    }
+
+    .good-news-container-second-div {
+        width: 80vw;
+    }
+
+    .available-cs-programs-div-second-div-computer-science {
+        width: 80vw;
+    }
+
     .content-first-banner-container-computer-science {
         justify-content: space-around;
     }
@@ -354,8 +370,51 @@
     }
 }
 
+@media screen and (max-width: 870px) {
+    .current-directory-div-second-div-computer-science > p > a {
+        font-size: 17px;
+    }
+}
 
 @media screen and (max-width: 770px) {
+    .current-directory-div-second-div-computer-science {
+        width: 90vw;
+    }
+
+    .mission-statement-accreditation-div-second-div-container-computer-science {
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .mission-statement-div-cs {
+        width: 90vw;
+        height: 30vh;
+        padding-right: 1vmax;
+    }
+
+    .mission-statement-div-cs > p,
+    .accreditation-div-cs > div > p {
+        font-size: 18px;
+    }
+
+    .good-news-container-second-div {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    .good-news-container-second-div > a {
+        font-size: 19px;
+    }
+
+    .available-cs-programs-div-second-div-computer-science {
+        width: 90vw;
+        padding-left: 0;
+    }
+
+    .available-cs-programs-div-second-div-computer-science > ol {
+        padding-left: 1vmax;
+    }
+
     .content-first-banner-container-computer-science {
         flex-direction: column;
         align-items: flex-start;
@@ -425,5 +484,15 @@
     .text-div-right-div-content-first > h3 > span::after {
         content: "\a";
         white-space: pre;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .mission-statement-div-cs {
+        height: fit-content;
+    }
+
+    .accreditation-div-cs {
+        width: fit-content;
     }
 }

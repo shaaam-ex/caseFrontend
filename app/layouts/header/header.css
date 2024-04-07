@@ -215,8 +215,9 @@ li > a {
     .main-container-header {
         position: fixed;
         background-color: white;
-        width: 90vw;
+        width: 100vw;
         height: 8vh;
+        padding: 0;
     }
 
     .clickable-hoverable-links-header-hamburger {
@@ -224,8 +225,11 @@ li > a {
         height: 100vh;
     }
 
-    .logo-container-header > img,
-    .right-div-container-header > img {
+    .logo-container-header > img {
         width: 20vmax;
+    }
+
+    .right-div-container-header > img {
+        display: none;
     }
 }

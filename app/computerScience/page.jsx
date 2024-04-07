@@ -17,7 +17,9 @@ const roboto = Roboto({
 export default function ComputerScience() {
 
     useEffect(() => {
-        document.querySelector('.main-container-header').style.height = '15vh';
+        if(screen.width > 800) {
+            document.querySelector('.main-container-header').style.height = '15vh';
+        }
     }, [])
 
     return (
