@@ -2,6 +2,10 @@
     scroll-behavior: smooth;
 }
 
+.main-container-landing-page {
+    margin-top: 6.5vmax;
+}
+
 .main-carousel-standard {
     position: relative;
     height: 70vh;

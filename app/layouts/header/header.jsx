@@ -5,15 +5,44 @@ import './header.css';
 
 import { MdMenu, MdArrowDropDown, MdClose } from "react-icons/md";
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function Header() {
+
+    const [initialScrollPosition, setInitialScrollPosition] = useState(200);
 
     function handleHamburger() {
         const menuHeader = document.querySelector('.clickable-hoverable-links-header-hamburger');
         menuHeader.classList.toggle('visible');
         console.log('called');
     }
+
+    function handleScrollHeader(e) {
+        let caseMainImg = document.querySelector('.logo-container-header > img');
+        let caseLastImgIEEE = document.querySelector('.right-div-container-header > img');
+
+        let currentScrollPosition = window.scrollY;
+        
+        if(currentScrollPosition > initialScrollPosition) {
+            caseMainImg.style.height = '55px';
+            caseMainImg.style.width = '195px';
+
+            caseLastImgIEEE.style.height = '55px';
+            caseLastImgIEEE.style.width = '55px';
+        }
+
+        else {
+            caseMainImg.style.height = '70px';
+            caseMainImg.style.width = '224px';
+            
+            caseLastImgIEEE.style.height = '70px'
+            caseLastImgIEEE.style.width = '70px';
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScrollHeader);
+    }, [])
     
     return (
         <>

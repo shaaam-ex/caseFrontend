@@ -25,6 +25,7 @@ import { Head } from 'next/head';
 import dynamic from 'next/dynamic';
 
 export default function LandingPage() {
+
     return (
         <>
             <div className="main-container-landing-page">
