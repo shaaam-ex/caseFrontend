@@ -304,15 +304,15 @@
     border: 2px solid rgb(102, 101, 101);
     border-radius: 23px;
 
-    padding: 0 0.8vmax;
+    padding: 0 20px;
 
     position: fixed;
-    right: -1vw;
+    right: -3vw;
     bottom: 4vh;
 
     float: right;
 
-    width: 25px;
+    width: 55px;
     height: 5vh;
 
     transition: 0.32s ease-in-out;
@@ -513,6 +513,12 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .announcements-pop-up-menu-landing-page {
+        right: -5vmax;
+    }
+}
+
 @media screen and (max-width: 920px) {
     .swiper-card-second-carousel-container{
         width: 70vw;
@@ -642,6 +648,10 @@
     #welcome-section > h1 {
         font-size: 58px;
         transition: 0.32s ease-in-out;
+    }
+
+    .announcements-pop-up-menu-landing-page {
+        right: -6vmax;
     }
 
     .second-carousel-offered-programs-landing-page {
