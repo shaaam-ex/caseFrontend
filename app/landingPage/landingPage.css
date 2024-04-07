@@ -5,8 +5,6 @@
 .main-carousel-standard {
     position: relative;
     height: 70vh;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .main-carousel-standard::before {
@@ -659,6 +657,24 @@
         transition: 0.32s ease-in-out;
     }
 
+    .banners-first-slide-admissions {
+        height: fit-content;
+    }
+
+    .first-banner-admissions {
+        height: fit-content;
+        padding-bottom: 1vmax;
+    }
+
+    .standard-button-banner-medium {
+        position: relative;
+    }
+
+    .case-description-banner {
+        width: 300px;
+        height: fit-content;
+    }
+
     .second-carousel-offered-programs-landing-page {
         height: 90vh;
         justify-content: center;
@@ -701,7 +717,5 @@
 
         position: absolute;
         bottom: 20px;
-
-        /* margin-top: 2vmax; */
     }
 }

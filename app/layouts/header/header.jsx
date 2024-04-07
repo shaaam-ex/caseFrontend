@@ -77,36 +77,15 @@ export default function Header() {
                             </li>
 
                             <li className='absolute-child-drop-down-container-hamburger'>
-                                <Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Admissions</Link><MdArrowDropDown className='drop-down-icon' />
-
-                                <ul className='container-available-options-drop-down-menu-hamburger'>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Offered Programs</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>How to Apply</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Eligibility Criteria</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Scholarships</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Fee Structure</Link></li>
-                                </ul>
+                                <Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Admissions</Link>
                             </li> {/* DropDown */}
 
                             <li className='absolute-child-drop-down-container-hamburger'>
-                                <Link href='#'>Departments</Link><MdArrowDropDown className='drop-down-icon' />
-
-                                <ul className='container-available-options-drop-down-menu-hamburger'>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Computer Science</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Electrical Engineering</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Management Sciences</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Sciences and humanities</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Medical Sciences</Link></li>
-                                </ul>
+                                <Link href='#'>Departments</Link>
                             </li> {/* DropDown */}
 
                             <li className='absolute-child-drop-down-container-hamburger'>
-                                <Link href='#'>Portal</Link><MdArrowDropDown className='drop-down-icon' />
-
-                                <ul className='container-available-options-drop-down-menu-hamburger'>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Faculty Portal</Link></li>
-                                    <li className='clickable-available-link-drop-down-menu-hamburger'><Link className='clickable-link-inner-drop-down-hamburger default-playfair-link' href='#'>Student Portal</Link></li>
-                                </ul>
+                                <Link href='#'>Portal</Link>
                             </li> {/* DropDown */}
 
                             <li className='absolute-child-drop-down-container-hamburger'>

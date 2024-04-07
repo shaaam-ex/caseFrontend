@@ -72,12 +72,6 @@ export default function LandingPage() {
                                     <h3 className='h3-banner-standard'><a href="#">Click here for degree programs</a></h3>
                                     <Link id='testbutton' className='standard-button-banner-medium standard-button' href={'#'}>Apply Now</Link>
                                 </div>
-
-                                <div className="second-banner-admissions standard-banner-medium">
-                                    <h2 className='h2-banner-standard'>1st Convocation</h2>
-                                    <h3 className='h3-banner-standard'><span>On 9th March, 2024</span></h3>
-                                    <Link className='standard-button-banner-medium standard-button' href={'#'}>Apply Now</Link>
-                                </div>
                             </div>
                         </SwiperSlide>
 
@@ -85,8 +79,8 @@ export default function LandingPage() {
                             <img src="https://www.case.edu.pk/wp-content/uploads/2023/06/CASE-University.webp" alt="" />
                             <div className="banners-second-slide-admissions banner-container-second-carousel">
                                 <img src="https://www.case.edu.pk/wp-content/uploads/2023/05/case-logo-lg-copy-1-150x150.png" alt="" />
-                                    <h2 className='h2-banner-standard'>Sir Syed CASE Institute of Technology Islamabad</h2>
-                                    <h3 className='h3-banner-standard'>
+                                    <h2 className='h2-banner-standard case-description-banner'>Sir Syed CASE Institute of Technology Islamabad</h2>
+                                    <h3 className='h3-banner-standard case-description-banner'>
                                         We offer undergraduate degree programs in Electrical Engineering, Computer Engineering, 
                                         Business Administration, Accounting and Finance, Computer Science, Software Engineering,
                                         Artificial Intelligence, Cyber Security and English. We offer post graduate degree programs
@@ -156,12 +150,12 @@ export default function LandingPage() {
                         <Swiper
                             pagination={true}
                             modules={[Pagination, Autoplay, Navigation]}
-                            // autoplay={{
-                            //     delay: 4500,
-                            //     disableOnInteraction: false,
-                            //     pauseOnMouseEnter: true,
-                            // }}
-                            // speed={1200}
+                            autoplay={{
+                                delay: 4500,
+                                disableOnInteraction: false,
+                                pauseOnMouseEnter: true,
+                            }}
+                            speed={1200}
                             navigation={{
                                 nextEl: '.swiper-button-next-second',
                                 prevEl: '.swiper-button-prev-second',
