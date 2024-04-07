@@ -155,6 +155,7 @@ li > a {
     .hamburger-menu-button-header.close {
         position: absolute;
         right: 20px;
+        top: 10px;
     }
 
     .clickable-hoverable-links-header-hamburger {
@@ -198,6 +199,18 @@ li > a {
 }
 
 @media screen and (max-width: 425px) {
+    .main-container-header {
+        position: fixed;
+        background-color: white;
+        width: 90vw;
+        height: 8vh;
+    }
+
+    .clickable-hoverable-links-header-hamburger {
+        width: 50vw;
+        height: 100vh;
+    }
+
     .logo-container-header > img,
     .right-div-container-header > img {
         width: 20vmax;
