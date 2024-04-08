@@ -230,7 +230,7 @@ const page = () => {
             },
             
             {
-                name: 'Semester 5',
+                name: 'Semester 6',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'CS3401',
@@ -263,6 +263,88 @@ const page = () => {
                     {
                         code: 'N/A',
                         name: 'University Elective-I',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+                ],
+                total: [16, 0] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 7',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–V',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS4006',
+                        name: 'Compiler Construction',
+                        credits: [3, 0],
+                        preRequisite: 'CS3302'
+                    },
+
+                    {
+                        code: 'CS4405',
+                        name: 'Parallel & Distributed Computing',
+                        credits: [3, 0],
+                        preRequisite: 'CS2504'
+                    },
+
+                    {
+                        code: 'CS4111',
+                        name: 'Senior Design Project-I',
+                        credits: [2, 0],
+                        preRequisite: 'SC'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective-II',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+                ],
+                total: [14, 0] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 8',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective-VI',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS4406',
+                        name: 'Information Security',
+                        credits: [3, 0],
+                        preRequisite: 'Senior Standing'
+                    },
+
+                    {
+                        code: 'CS4112',
+                        name: 'Senior Design Project-II',
+                        credits: [4, 0],
+                        preRequisite: 'CS4111'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective- III',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective- IV',
                         credits: [3, 0],
                         preRequisite: 'AS PER SPECIFIC COURSE'
                     },
