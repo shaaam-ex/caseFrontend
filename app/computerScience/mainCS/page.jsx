@@ -181,6 +181,95 @@ const page = () => {
                 total: [18, 18] // [FSc/ICS, Med]
             },
             
+            {
+                name: 'Semester 5',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–II',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS4303',
+                        name: 'Artificial Intelligence',
+                        credits: [3, 1],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–III',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS3005',
+                        name: 'Design & Analysis of Algorithms',
+                        credits: [3, 0],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'SC3005',
+                        name: 'Linear Algebra',
+                        credits: [3, 0],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'CS3302',
+                        name: 'Theory of Automata and Formal Languages',
+                        credits: [3, 0],
+                        preRequisite: 'CS2301'
+                    }
+                ],
+                total: [19, 0] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 5',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS3401',
+                        name: 'Computer Communication and Networks',
+                        credits: [3, 1],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–IV',
+                        credits: [3, 1],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'SC3006',
+                        name: 'Numerical Computing',
+                        credits: [2, 0],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'HU3004',
+                        name: 'Technical & Business Writing',
+                        credits: [3, 0],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective-I',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+                ],
+                total: [16, 0] // [FSc/ICS, Med]
+            },
+            
         ])
     }, [])
 
