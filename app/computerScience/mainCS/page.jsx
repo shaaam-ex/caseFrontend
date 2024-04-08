@@ -18,6 +18,18 @@ const page = () => {
                     content="Computer Science Department, Sir Syed CASE Institute of technology. exton-cs.me"
                 />
             </head>
+
+            <div className="main-container-main-cs">
+                <div className="banner-image-main-cs">
+                    <div className="image-main-cs-first">
+                        <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1712585015/case/banners/mainCS/yg1uqa0zjiyfquawlz3q.jpg" alt="" />
+                    </div>
+                    
+                    <div className="h2-banner-container-main-cs">
+                        <h2>Bachelor's of Science (Computer Science)</h2>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
