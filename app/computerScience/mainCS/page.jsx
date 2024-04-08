@@ -1,6 +1,64 @@
-import './mainCS.css'
+'use client'
+
+import { useEffect, useState } from 'react';
+import './mainCS.css';
+import Table from '@/app/layouts/semesterTable/page';
 
 const page = () => {
+
+    const [semesters, setSemesters] = useState([]);
+
+    useEffect(() => {
+        setSemesters([
+            {
+                name: 'Semester 1',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'SC1201',
+                        name: 'Applied Physics',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Calculus & Analytic Geometry',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'English Composition & Comprehension',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'CS1501',
+                        name: 'ICT',
+                        credits: [1, 1],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1201',
+                        name: 'Applied Physics',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1201',
+                        name: 'Applied Physics',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    }
+                ]
+            }
+        ])
+    }, [])
+
     return (
         <>
             <head>
@@ -32,18 +90,68 @@ const page = () => {
 
                 <div className="basic-info-cs">
                     <div className="first-div-basic-info-cs">
-                        <h2>
-                            Program Info
-                        </h2>
-                        <p>
-                            The program focuses on encouraging students to develop and use 
-                            abstract models in addition to applying the respective technologies 
-                            in practical situations. This program focuses on establishing a 
-                            strong mathematical foundation, basic aspects of computing, and 
-                            advanced technical electives covering areas like Intelligent Systems,
-                            Software Engineering & Net-Centric, Data Sciences, Information 
-                            Security, E‐commerce, and Biomedical.
-                        </p>
+                        <div className="program-info-cs-first-div">
+                            <h2>
+                                Program Info
+                            </h2>
+                            <p>
+                                The program focuses on encouraging students to develop and use 
+                                abstract models in addition to applying the respective technologies 
+                                in practical situations. This program focuses on establishing a 
+                                strong mathematical foundation, basic aspects of computing, and 
+                                advanced technical electives covering areas like Intelligent Systems,
+                                Software Engineering & Net-Centric, Data Sciences, Information 
+                                Security, E‐commerce, and Biomedical.
+                            </p>
+                        </div>
+
+                        <div className="degree-requirements-cs-first-div">
+                            <h2>
+                                Degree Requirements
+                            </h2>
+                            <p>
+                                For the award of BS (CS) degree, a student must ensure the following:
+
+                                <ul>
+                                    <li>Minimum of 133 credit hours.</li>
+                                    <li>A senior design project of 6 credit hours.</li>
+                                    <li>minimum CGPA of 2.00.</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="eligibility-criteria-cs-first-div">
+                            <h2>
+                                Eligibility Criteria
+                            </h2>
+                            <p>
+                                In order to apply for BS (CS), the applicant must ensure the following:
+
+                                <ul>
+                                    <li>
+                                        At least 50 % marks in Intermediate (HSSC), A-Level &
+                                        equivalent examination with Mathematics or equivalent
+                                        qualiﬁcation with Mathematics certiﬁed by IBCC.
+                                    </li>
+
+                                    <li>
+                                        At least 50% marks for FSc, A-level or equivalent in 
+                                        Pre-Medical. No need to appear in Board intermediate 
+                                        level (FSC or equivalent) exams to clear their mathematics 
+                                        courses.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div className="semester-plan-cs">
+                            <h2>
+                                Semester Plan
+                            </h2>
+
+                            <div className="main-container-semester-plan-inner">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
