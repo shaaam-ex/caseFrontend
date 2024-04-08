@@ -33,6 +33,8 @@ export default function Header() {
 
                 main_container_header.style.height = '10vh';
                 main_container_header.style.padding = '0';
+
+                console.log(currentScrollPosition)
             }
 
             else {
@@ -43,6 +45,8 @@ export default function Header() {
                 caseLastImgIEEE.style.width = '70px';
 
                 main_container_header.style.height = '15vh';
+                
+                console.log(currentScrollPosition)
             }
         }
     }

@@ -29,6 +29,23 @@ const page = () => {
                         <h2>Bachelor's of Science (Computer Science)</h2>
                     </div>
                 </div>
+
+                <div className="basic-info-cs">
+                    <div className="first-div-basic-info-cs">
+                        <h2>
+                            Program Info
+                        </h2>
+                        <p>
+                            The program focuses on encouraging students to develop and use 
+                            abstract models in addition to applying the respective technologies 
+                            in practical situations. This program focuses on establishing a 
+                            strong mathematical foundation, basic aspects of computing, and 
+                            advanced technical electives covering areas like Intelligent Systems,
+                            Software Engineering & Net-Centric, Data Sciences, Information 
+                            Security, E‐commerce, and Biomedical.
+                        </p>
+                    </div>
+                </div>
             </div>
         </>
     )
