@@ -35,23 +35,9 @@ const page = () => {
                     },
 
                     {
-                        code: 'CS1501',
-                        name: 'ICT',
-                        credits: [1, 1],
-                        preRequisite: 'Freshman Standing'
-                    },
-
-                    {
-                        code: 'SC1201',
-                        name: 'Applied Physics',
-                        credits: [3, 0],
-                        preRequisite: 'Freshman Standing'
-                    },
-
-                    {
-                        code: 'SC1201',
-                        name: 'Applied Physics',
-                        credits: [3, 0],
+                        code: 'CS1001',
+                        name: 'Programming Fundamentals',
+                        credits: [3, 1],
                         preRequisite: 'Freshman Standing'
                     }
                 ]
