@@ -133,7 +133,7 @@ export default function ComputerScience() {
                         </p>
 
                         <ol>
-                            <li><a href="#">BSCS (BS Computer Science)</a></li>
+                            <li><a href="/computerScience/mainCS">BSCS (BS Computer Science)</a></li>
                             <li><a href="#">BSAI (BS Artificial Intelligence)</a></li>
                             <li><a href="#">BSSE (BS Software Engineering)</a></li>
                             <li><a href="#">BSCYS (BS Cyber Security)</a></li>

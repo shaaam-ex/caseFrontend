@@ -184,15 +184,17 @@ li > a {
 
         background-color: white;
 
-        transition: 0.05s ease;
+        transition: 0.25s ease-in-out;
 
-        right: -900px;
+        /* right: -900px; */
+        transform: translateX(900px);
 
         z-index: 1000;
     }
 
     .clickable-hoverable-links-header-hamburger.visible {
-        right: 0;
+        /* right: 0; */
+        transform: translateX(10px);
     }
 
     .absolute-child-drop-down-container-hamburger {

@@ -14,7 +14,6 @@ export default function Header() {
     function handleHamburger() {
         const menuHeader = document.querySelector('.clickable-hoverable-links-header-hamburger');
         menuHeader.classList.toggle('visible');
-        console.log('called');
     }
 
     function handleScrollHeader(e) {
