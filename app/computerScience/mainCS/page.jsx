@@ -40,8 +40,113 @@ const page = () => {
                         credits: [3, 1],
                         preRequisite: 'Freshman Standing'
                     }
-                ]
-            }
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 2',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'HU1003',
+                        name: 'Communication & Presentation Skills',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'CS1502',
+                        name: 'Digital Logic and Design',
+                        credits: [3, 1],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1101',
+                        name: 'Islamic Studies',
+                        credits: [2, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1002',
+                        name: 'Multivariate Calculus',
+                        credits: [2, 0],
+                        preRequisite: 'SC1001'
+                    },
+
+                    {
+                        code: 'HU1102',
+                        name: 'Pakistan Studies',
+                        credits: [2, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'CS1002',
+                        name: 'Programming Techniques',
+                        credits: [1, 1],
+                        preRequisite: 'CS1001'
+                    },
+                ],
+                total: [15, 17] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 3',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS2503',
+                        name: 'Computer Organization & Assembly Language',
+                        credits: [3, 1],
+                        preRequisite: 'SPM'
+                    },
+
+                    {
+                        code: 'CS2003',
+                        name: 'Data Structure and Algorithms',
+                        credits: [3, 1],
+                        preRequisite: 'CS1001'
+                    },
+
+                    {
+                        code: 'SC2003',
+                        name: 'Differential Equations',
+                        credits: [3, 0],
+                        preRequisite: 'SC1001'
+                    },
+
+                    {
+                        code: 'HU1102',
+                        name: 'Pakistan Studies',
+                        credits: [2, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'CS2301',
+                        name: 'Discrete Structures',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1002',
+                        name: 'Multivariate Calculus',
+                        credits: [2, 0],
+                        preRequisite: 'SC1001'
+                    },
+
+                    {
+                        code: 'CS2004',
+                        name: 'Object Oriented Programming',
+                        credits: [3, 1],
+                        preRequisite: 'CS1001'
+                    },
+                ],
+                total: [18, 19] // [FSc/ICS, Med]
+            },
+            
         ])
     }, [])
 
