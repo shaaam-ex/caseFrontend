@@ -117,13 +117,6 @@ const page = () => {
                     },
 
                     {
-                        code: 'HU1102',
-                        name: 'Pakistan Studies',
-                        credits: [2, 0],
-                        preRequisite: 'Freshman Standing'
-                    },
-
-                    {
                         code: 'CS2301',
                         name: 'Discrete Structures',
                         credits: [3, 0],
@@ -145,6 +138,47 @@ const page = () => {
                     },
                 ],
                 total: [18, 19] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 4',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–I',
+                        credits: [3, 1],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS2201',
+                        name: 'Introduction to Database Systems',
+                        credits: [3, 1],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'CS2504',
+                        name: 'Operating Systems',
+                        credits: [3, 1],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'SC2004',
+                        name: 'Probability and statistics',
+                        credits: [3, 0],
+                        preRequisite: 'SOPHOMORE STANDING'
+                    },
+
+                    {
+                        code: 'CS2101',
+                        name: 'Software Engineering',
+                        credits: [3, 0],
+                        preRequisite: 'SOPHOMORE STANDING'
+                    }
+                ],
+                total: [18, 18] // [FSc/ICS, Med]
             },
             
         ])
