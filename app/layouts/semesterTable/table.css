@@ -4,12 +4,24 @@
     width: fit-content;
 }
 
+.main-container-semester-individual-table > h2 {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
 .inner-headings-main-container-semester-table {
     display: flex;
+    border: 1px solid;
 }
 
 .inner-headings-main-container-semester-table > h3 {
     font-size: 19px;
+}
+
+.individual-subject-row-table {
+    border: 1px solid;
+    border-top: 0;
 }
 
 .h3-code-column-inner-heading-main-semester-table {
