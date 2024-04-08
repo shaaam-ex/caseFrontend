@@ -1,0 +1,65 @@
+.main-container-semester-individual-table {
+    font-family: "Arial";
+
+    width: fit-content;
+}
+
+.inner-headings-main-container-semester-table {
+    display: flex;
+}
+
+.inner-headings-main-container-semester-table > h3 {
+    font-size: 19px;
+}
+
+.h3-code-column-inner-heading-main-semester-table {
+    width: 60px;
+    text-align: start;
+}
+
+.h3-title-column-inner-heading-main-semester-table {
+    width: 350px;
+    text-align: start;
+    margin-left: 2vmax;
+}
+
+.h3-credits-column-inner-heading-main-semester-table {
+    width: 70px;
+    text-align: start;
+}
+
+.h3-pre-req-column-inner-heading-main-semester-table {
+    width: 220px;
+
+    margin-left: 2vmax;
+}
+
+.p-code-column-inner-heading-main-semester-table {
+    width: 60px;
+    text-align: start;
+}
+
+.p-title-column-inner-heading-main-semester-table {
+    width: 350px;
+    text-align: start;
+    margin-left: 2vmax;
+}
+
+.p-credits-column-inner-heading-main-semester-table {
+    width: 70px;
+    text-align: start;
+}
+
+.p-pre-req-column-inner-heading-main-semester-table {
+    width: 220px;
+
+    margin-left: 2vmax;
+}
+
+.main-row-subject-table > p {
+    font-size: 16px;
+}
+
+.main-row-subject-table {
+    display: flex;
+}

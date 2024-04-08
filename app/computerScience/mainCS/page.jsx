@@ -8,6 +8,7 @@ const page = () => {
 
     const [semesters, setSemesters] = useState([]);
 
+    // Initialize Semesters
     useEffect(() => {
         setSemesters([
             {
@@ -446,6 +447,11 @@ const page = () => {
                             </h2>
 
                             <div className="main-container-semester-plan-inner">
+                                {
+                                    semesters.map(sem => (
+                                        <Table semester={sem} />
+                                    ))
+                                }
                             </div>
                         </div>
                     </div>
