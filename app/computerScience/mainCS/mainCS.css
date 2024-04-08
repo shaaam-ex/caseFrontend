@@ -42,3 +42,10 @@
 .h2-banner-container-main-cs > h2 {
     font-size: 2vmax;
 }
+
+.main-container-semester-plan-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vmax;
+}

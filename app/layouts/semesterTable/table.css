@@ -13,6 +13,8 @@
 .inner-headings-main-container-semester-table {
     display: flex;
     border: 1px solid;
+    
+    padding: 0 1vmax;
 }
 
 .inner-headings-main-container-semester-table > h3 {
@@ -22,6 +24,10 @@
 .individual-subject-row-table {
     border: 1px solid;
     border-top: 0;
+
+    padding: 0 1vmax;
+
+    height: 35vh;
 }
 
 .h3-code-column-inner-heading-main-semester-table {
