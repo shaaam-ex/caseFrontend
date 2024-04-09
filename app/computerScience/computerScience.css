@@ -280,6 +280,11 @@
     color: #666666;
 }
 
+.available-cs-programs-div-second-div-computer-science > ol > li {
+    display: list-item;
+    list-style: decimal;
+}
+
 .available-cs-programs-div-second-div-computer-science > ol {
     display: flex;
     flex-direction: column;
