@@ -454,6 +454,44 @@ const page = () => {
                                 }
                             </div>
                         </div>
+
+                        <div className="peo-plo-cs">
+                            <div className="peo-container-cs">
+                                <ol>
+                                    <li>
+                                        Fundamental Computing Knowledge A graduate who is 
+                                        performing his/her professional roles with 
+                                        understanding of fundamental computing knowledge 
+                                        acquired during his studies.
+                                    </li>
+
+                                    <li>
+                                        Ethical and Societal Responsibilities A graduate who is 
+                                        fulfilling his/her professional responsibilities taking 
+                                        into account ethical and societal concerns.
+                                    </li>
+
+                                    <li>
+                                        Communication Skills A graduate who is effective in 
+                                        oral and written communication of technical and 
+                                        managerial information.
+                                    </li>
+
+                                    <li>
+                                        Leadership A graduate who is effective in a 
+                                        leadership role of a group/team assigned to him/her 
+                                        or in an entrepreneurial environment.
+                                    </li>
+                                    
+                                    <li>
+                                        Continuous Improvement A graduate who keeps on 
+                                        exploring new fields and areas in computing for 
+                                        his/her organization or conduct research for 
+                                        academic pursuits.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
