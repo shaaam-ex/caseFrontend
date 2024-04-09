@@ -1,6 +1,6 @@
 # NextJS App for Sir Syed Case Institute of Technology
 
-Being Developed by **NOTAHTI123**
+Being Developed by **[NOTAHTI123](github.com/NOTAHTI123)**
 
 *Latest Update Patch Notes*
 
@@ -14,5 +14,7 @@ This application has been tested and is successfully running on the following de
 1. HP Pavilion 15.6" Gaming Edition (1920x1080)
 2. Apple IPhone 13
 3. Xiaomi Redmi Note 8
+
+The 
 
 *Status:-* **Private Build (Alpha) v1.0**
