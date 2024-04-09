@@ -68,7 +68,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 3vmax;
+    gap: 1.5vmax 3vmax;
 }
 
 p > ol > li,
