@@ -15,6 +15,8 @@ This application has been tested and is successfully running on the following de
 2. Apple IPhone 13
 3. Xiaomi Redmi Note 8
 
+This application is going to work on all equivalent devices.
+
 The 
 
 *Status:-* **Private Build (Alpha) v1.0**
