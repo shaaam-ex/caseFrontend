@@ -94,6 +94,10 @@
 
 @media screen and (max-width: 550px) {
 
+    .individual-subject-row-table {
+        height: fit-content;
+    }
+
     .h3-title-column-inner-heading-main-semester-table {
         width: fit-content;
         width: 130px;

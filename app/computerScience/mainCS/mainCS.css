@@ -10,8 +10,7 @@
 .image-main-cs-first::before {
     content: '';
     position: absolute;
-    height: 35.8vh;
-    top: 14vh;
+    height: 50vh;
     width: 100vw;
 
     background-color: rgba(0, 0, 0, 0.30);
@@ -61,7 +60,6 @@
 }
 
 .semester-plan-cs {
-    border: 1px solid red;
     overflow: hidden;
     margin-left: 0;
 }
@@ -92,7 +90,6 @@ ul > li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border: 1px solid red;
     }
 
     .main-container-semester-plan-inner {
