@@ -71,14 +71,11 @@
     gap: 3vmax;
 }
 
-ol > li,
-ul > li {
+p > ol > li,
+p > ul > li,
+.peo-container-cs > ol > li {
     display: list-item;
     list-style: decimal;
-}
-
-.middle-div-container-header > ul > li {
-    list-style: none;
 }
 
 .program-info-cs-first-div > h2,

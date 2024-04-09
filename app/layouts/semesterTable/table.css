@@ -94,6 +94,10 @@
 
 @media screen and (max-width: 550px) {
 
+    .main-container-semester-individual-table {
+        width: 100vw;
+    }
+
     .individual-subject-row-table {
         height: fit-content;
     }
