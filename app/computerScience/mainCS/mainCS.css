@@ -81,15 +81,19 @@ ul > li {
     list-style: none;
 }
 
+.program-info-cs-first-div > h2,
+.degree-requirements-cs-first-div > h2,
+.eligibility-criteria-cs-first-div > h2,
+.semester-plan-cs > h2,
+.peo-container-cs > h2 {
+    border-bottom: 4px solid #0d3460;
+    text-align: center;
+    padding: 1vmax 0;
+}
+
 @media screen and (max-width: 840px) {
     .first-div-basic-info-cs {
-        width: 100vw;
-    }
-
-    .semester-plan-cs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 95vw;
     }
 
     .main-container-semester-plan-inner {
