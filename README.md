@@ -19,6 +19,4 @@ This application has been tested and is successfully running on the following de
 
 This application is going to work on all equivalent devices.
 
-The 
-
 *Status:-* **Private Build (Alpha) v1.0**
