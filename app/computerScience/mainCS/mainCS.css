@@ -96,3 +96,34 @@ ul > li {
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 550px) {
+
+    .h2-banner-container-main-cs > h2 {
+        font-size: 46px;
+        text-align: center;
+        margin-top: 10vmax;
+        height: fit-content;
+    }
+
+    .image-main-cs-first {
+        position: relative;
+        height: 40vh;
+    }
+    
+    .image-main-cs-first::before {
+        content: '';
+        position: absolute;
+        height: 40vh;
+        width: 100vw;
+    
+        background-color: rgba(0, 0, 0, 0.30);
+        z-index: 998;
+    }
+    
+    .image-main-cs-first > img {
+        width: 100%;
+        height: 40vh;
+        z-index: 5;
+    }
+}
