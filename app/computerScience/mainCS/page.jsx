@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import './mainCS.css';
-import Table from '@/app/layouts/semesterTable/page';
+import Table from '@/app/layouts/semesterTable/Table';
 
 const page = () => {
 
