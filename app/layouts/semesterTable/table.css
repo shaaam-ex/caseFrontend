@@ -81,3 +81,25 @@
 .main-row-subject-table {
     display: flex;
 }
+
+@media screen and (max-width: 840px) {
+    .h3-pre-req-column-inner-heading-main-semester-table {
+        display: none;
+    }
+
+    .p-pre-req-column-inner-heading-main-semester-table {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .h3-title-column-inner-heading-main-semester-table {
+        width: fit-content;
+        width: 130px;
+    }
+
+    .p-title-column-inner-heading-main-semester-table {
+        width: 130px;
+    }
+}

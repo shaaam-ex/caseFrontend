@@ -457,6 +457,7 @@ const page = () => {
 
                         <div className="peo-plo-cs">
                             <div className="peo-container-cs">
+                                <h2>Program Educational Objectives (PEO)</h2>
                                 <ol>
                                     <li>
                                         Fundamental Computing Knowledge A graduate who is 

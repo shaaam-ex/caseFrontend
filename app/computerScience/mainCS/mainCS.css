@@ -24,6 +24,23 @@
     z-index: 5;
 }
 
+.basic-info-cs {
+    display: flex;
+    justify-content: center;
+}
+
+.first-div-basic-info-cs {
+    width: 90vw;
+}
+
+.main-container-main-cs > h2 {
+    margin-top: 2vmax;
+    font-family: Poppins;
+}
+
+.main-container-main-cs > p {
+}
+
 .h2-banner-container-main-cs {
     color: white;
     position: absolute;
@@ -43,9 +60,42 @@
     font-size: 2vmax;
 }
 
+.semester-plan-cs {
+    border: 1px solid red;
+    overflow: hidden;
+    margin-left: 0;
+}
+
 .main-container-semester-plan-inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 3vmax;
+}
+
+ol > li,
+ul > li {
+    display: list-item;
+    list-style: decimal;
+}
+
+.middle-div-container-header > ul > li {
+    list-style: none;
+}
+
+@media screen and (max-width: 840px) {
+    .first-div-basic-info-cs {
+        width: 100vw;
+    }
+
+    .semester-plan-cs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid red;
+    }
+
+    .main-container-semester-plan-inner {
+        justify-content: center;
+    }
 }
