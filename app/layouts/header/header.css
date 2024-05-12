@@ -158,19 +158,24 @@ li > a {
 }
 
 .search-icon-header:hover {
-    font-size: 1.85vmax;
+    font-size: 1.35vmax;
+    cursor: pointer;
     /* animation: mySpinner 4s linear infinite; */
 }
 
 .search-bar-div {
     position: absolute;
-    right: 6vw;
+    right: 5vw;
     z-index: 997;
 }
 
 .search-bar-div > input {
     height: 5vh;
-    width: 20vw;
+    width: 15vw;
+    padding-left: 0.5vmax;
+
+    border: 0.8px solid rgb(185, 182, 182);
+    border-radius: 13px;
 }
 
 /* @keyframes mySpinner {
@@ -194,10 +199,6 @@ li > a {
         transform: rotate(90deg);
     }
 } */
-
-.search-icon-header:hover {
-    cursor: pointer;
-}
 
 @media screen and (max-width: 870px) {
     .main-container-header {
