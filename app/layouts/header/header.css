@@ -164,9 +164,12 @@ li > a {
 }
 
 .search-bar-div {
+    display: block;
     position: absolute;
     right: 5vw;
     z-index: 997;
+
+    /* visibility: hidden; */
 }
 
 .search-bar-div > input {
@@ -199,6 +202,13 @@ li > a {
         transform: rotate(90deg);
     }
 } */
+
+@media screen and (max-width: 990px) {
+    .search-bar-div,
+    .search-icon-header {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 870px) {
     .main-container-header {
