@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import './header.css';
 
+import { CiSearch } from "react-icons/ci";
+
 import { MdMenu, MdArrowDropDown, MdClose } from "react-icons/md";
 
 import { useEffect, useState } from 'react';
@@ -20,16 +22,12 @@ export default function Header() {
         if (screen.width > 800) {
             let main_container_header = document.querySelector('.main-container-header');
             let caseMainImg = document.querySelector('.logo-container-header > img');
-            let caseLastImgIEEE = document.querySelector('.right-div-container-header > img');
 
             let currentScrollPosition = window.scrollY;
         
             if(currentScrollPosition > initialScrollPosition) {
                 caseMainImg.style.height = '55px';
                 caseMainImg.style.width = '195px';
-
-                caseLastImgIEEE.style.height = '55px';
-                caseLastImgIEEE.style.width = '55px';
 
                 main_container_header.style.height = '10vh';
                 main_container_header.style.padding = '0';
@@ -38,9 +36,6 @@ export default function Header() {
             else {
                 caseMainImg.style.height = '70px';
                 caseMainImg.style.width = '224px';
-            
-                caseLastImgIEEE.style.height = '70px'
-                caseLastImgIEEE.style.width = '70px';
 
                 main_container_header.style.height = '15vh';
             }
@@ -129,7 +124,11 @@ export default function Header() {
                             </li>
                         </ul>
                     </div>
-                    <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1710505935/case/e0gkiton8cke4sukhjbg.png" alt="" />
+                </div>
+                <CiSearch className='search-icon-header' />
+
+                <div className="search-bar-div">
+                    <input type="text" name="search-query" id="search-query" placeholder='Search' />
                 </div>
             </div>
         </>

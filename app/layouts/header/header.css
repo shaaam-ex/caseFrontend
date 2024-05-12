@@ -6,10 +6,11 @@ body, html {
 
 .main-container-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 
     padding: 1vmax;
+    gap: 10vmax;
 
     box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 7px;
 
@@ -21,6 +22,13 @@ body, html {
     background-color: white;
 
     transition: 0.22s ease-in-out;
+}
+
+.logo-container-header {
+    width: 18vw;
+    height: fit-content;
+
+    margin-left: 1.5vmax;
 }
 
 .logo-container-header > img {
@@ -136,6 +144,59 @@ li > a {
 .clickable-link-inner-drop-down:hover {
     color: #666666;
     transform: scaleX(1.05);
+}
+
+.search-icon-header {
+    font-size: 1.65vmax;
+    transition: 0.22s all;
+
+    position: absolute;
+
+    right: 6vw;
+
+    z-index: 998;
+}
+
+.search-icon-header:hover {
+    font-size: 1.85vmax;
+    /* animation: mySpinner 4s linear infinite; */
+}
+
+.search-bar-div {
+    position: absolute;
+    right: 6vw;
+    z-index: 997;
+}
+
+.search-bar-div > input {
+    height: 5vh;
+    width: 20vw;
+}
+
+/* @keyframes mySpinner {
+    from {
+        transform: rotate(0deg);
+    }
+    
+    25% {
+        transform: rotate(-90deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    75% {
+        transform: rotate(-90deg);
+    }
+
+    to {
+        transform: rotate(90deg);
+    }
+} */
+
+.search-icon-header:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 870px) {
