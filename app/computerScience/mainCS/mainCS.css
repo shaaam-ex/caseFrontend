@@ -34,6 +34,7 @@
     width: 90vw;
 
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 
     gap: 2vmax;
@@ -120,6 +121,21 @@ p > ul > li,
 
     .main-container-semester-plan-inner {
         justify-content: center;
+    }
+
+    .first-div-basic-info-cs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .program-info-cs-first-div,
+    .degree-requirements-cs-first-div,
+    .eligibility-criteria-cs-first-div {
+        width: 60vw;
+    }
+
+    .peo-container-cs {
+        display: none;
     }
 }
 
