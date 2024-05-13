@@ -31,7 +31,8 @@
 
     padding: 0 1vmax;
 
-    height: 37vh;
+    height: 38vh;
+    /* height: fit-content; */
 }
 
 .h3-code-column-inner-heading-main-semester-table {
@@ -86,12 +87,37 @@
     display: flex;
 }
 
+@media screen and (max-width: 1220px) {
+    .individual-subject-row-table {
+        height: 47vh;
+    }
+
+    .h3-title-column-inner-heading-main-semester-table {
+        width: fit-content;
+        /* width: 260px; */
+        width: 22vw;
+    }
+
+    .p-title-column-inner-heading-main-semester-table {
+        width: 23vw;
+        text-align: start;
+        margin-left: 2vmax;
+    }
+}
+
 @media screen and (max-width: 840px) {
     .h3-pre-req-column-inner-heading-main-semester-table {
         display: none;
     }
 
     .p-pre-req-column-inner-heading-main-semester-table {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .main-container-semester-individual-table > div {
         display: none;
     }
 }
