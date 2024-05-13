@@ -441,20 +441,6 @@ const page = () => {
                             </p>
                         </div>
 
-                        <div className="semester-plan-cs">
-                            <h2>
-                                Semester Plan
-                            </h2>
-
-                            <div className="main-container-semester-plan-inner">
-                                {
-                                    semesters.map(sem => (
-                                        <Table semester={sem} />
-                                    ))
-                                }
-                            </div>
-                        </div>
-
                         <div className="peo-plo-cs">
                             <div className="peo-container-cs">
                                 <h2>Program Educational Objectives (PEO)</h2>
@@ -491,6 +477,20 @@ const page = () => {
                                         academic pursuits.
                                     </li>
                                 </ol>
+                            </div>
+                        </div>
+
+                        <div className="semester-plan-cs">
+                            <h2>
+                                Semester Plan
+                            </h2>
+
+                            <div className="main-container-semester-plan-inner">
+                                {
+                                    semesters.map(sem => (
+                                        <Table semester={sem} />
+                                    ))
+                                }
                             </div>
                         </div>
                     </div>

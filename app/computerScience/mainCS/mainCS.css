@@ -26,18 +26,22 @@
 .basic-info-cs {
     display: flex;
     justify-content: center;
+
+    flex-wrap: wrap;
 }
 
 .first-div-basic-info-cs {
     width: 90vw;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 2vmax;
 }
 
 .main-container-main-cs > h2 {
     margin-top: 2vmax;
     font-family: Poppins;
-}
-
-.main-container-main-cs > p {
 }
 
 .h2-banner-container-main-cs {
@@ -78,6 +82,17 @@ p > ul > li,
     list-style: decimal;
 }
 
+.program-info-cs-first-div,
+.degree-requirements-cs-first-div,
+.eligibility-criteria-cs-first-div,
+.peo-container-cs {
+    width: 40vw;
+}
+
+.peo-container-cs {
+    line-height: 22px;
+}
+
 .program-info-cs-first-div > h2,
 .degree-requirements-cs-first-div > h2,
 .eligibility-criteria-cs-first-div > h2,
@@ -86,6 +101,16 @@ p > ul > li,
     border-bottom: 4px solid #0d3460;
     text-align: center;
     padding: 1vmax 0;
+
+    font-size: 17px;
+}
+
+.program-info-cs-first-div > p,
+.degree-requirements-cs-first-div > p,
+.eligibility-criteria-cs-first-div > p,
+.semester-plan-cs > p,
+.peo-container-cs > ol > li {
+    font-size: 15px;
 }
 
 @media screen and (max-width: 840px) {
