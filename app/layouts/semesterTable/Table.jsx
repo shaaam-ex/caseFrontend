@@ -1,10 +1,33 @@
+import { useState } from 'react';
 import './table.css';
 
+import { CgChevronDown } from "react-icons/cg";
+
 const Table = (props) => {
+
+    const [expansionStatus, setExpansionStatus] = useState(false);
+
+    const semesterId = props.semester.id;
+
+    const handleTableExpansion = (e) => {
+        let expandContainer = document.querySelector(`.individual-subject-row-table-${props.semester.id}`);
+        
+        if(!expansionStatus) {
+            expandContainer.style.display = 'block';
+        }
+
+        else {
+            expandContainer.style.display = 'none';
+        }
+
+        setExpansionStatus(!expansionStatus);
+    }
+
     return (
         <>
             <div className="main-container-semester-individual-table">
                 <h2>{props.semester.name}</h2>
+                <CgChevronDown onClick={handleTableExpansion} className='arrow-down-semester-plan' />
 
                 <div className="inner-headings-main-container-semester-table">
                     <h3 className='h3-code-column-inner-heading-main-semester-table'>Code</h3>
@@ -13,7 +36,7 @@ const Table = (props) => {
                     {/* <h3 className='h3-pre-req-column-inner-heading-main-semester-table'>Pre-Requisite</h3> */}
                 </div>
 
-                <div className="individual-subject-row-table">
+                <div className={`individual-subject-row-table individual-subject-row-table-${props.semester.id}`}>
                     {
                         props.semester.subjects.map(subject => (
                             <div className="main-row-subject-table" key={subject.code}>

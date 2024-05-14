@@ -12,6 +12,10 @@
     font-size: 17px;
 }
 
+.arrow-down-semester-plan {
+    display: none;
+}
+
 .inner-headings-main-container-semester-table {
     display: flex;
     border: 1px solid;
@@ -116,6 +120,20 @@
 }
 
 @media screen and (max-width: 700px) {
+    .main-container-semester-individual-table {
+        border-bottom: 1px solid #0d3460;
+        margin-bottom: 2vmax;
+
+        display: flex;
+    }
+
+    .arrow-down-semester-plan {
+        display: block;
+
+        font-size: 18px;
+
+        border: none;
+    }
 
     .main-container-semester-individual-table > div {
         display: none;

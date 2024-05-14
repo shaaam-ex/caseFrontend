@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import './mainCS.css';
 import Table from '@/app/layouts/semesterTable/Table';
 
+
 const page = () => {
 
     const [semesters, setSemesters] = useState([]);
@@ -13,6 +14,7 @@ const page = () => {
         setSemesters([
             {
                 name: 'Semester 1',
+                id: 'cs-sem-1',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'SC1201',
@@ -47,6 +49,7 @@ const page = () => {
             
             {
                 name: 'Semester 2',
+                id: 'cs-sem-2',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'HU1003',
@@ -95,6 +98,7 @@ const page = () => {
             
             {
                 name: 'Semester 3',
+                id: 'cs-sem-3',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'CS2503',
@@ -143,6 +147,7 @@ const page = () => {
             
             {
                 name: 'Semester 4',
+                id: 'cs-sem-4',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'N/A',
@@ -184,6 +189,7 @@ const page = () => {
             
             {
                 name: 'Semester 5',
+                id: 'cs-sem-5',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'N/A',
@@ -232,6 +238,7 @@ const page = () => {
             
             {
                 name: 'Semester 6',
+                id: 'cs-sem-6',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'CS3401',
@@ -273,6 +280,7 @@ const page = () => {
             
             {
                 name: 'Semester 7',
+                id: 'cs-sem-7',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'N/A',
@@ -314,6 +322,7 @@ const page = () => {
             
             {
                 name: 'Semester 8',
+                id: 'cs-sem-8',
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'N/A',
