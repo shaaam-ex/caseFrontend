@@ -26,7 +26,9 @@ const Table = (props) => {
     return (
         <>
             <div className="main-container-semester-individual-table">
-                <h2>{props.semester.name}</h2>
+                <div className="semester-heading-container-individual-table">
+                    <h2>{props.semester.name}</h2>
+                </div>
                 <CgChevronDown onClick={handleTableExpansion} className='arrow-down-semester-plan' />
 
                 <div className="inner-headings-main-container-semester-table">
@@ -40,7 +42,7 @@ const Table = (props) => {
                     {
                         props.semester.subjects.map(subject => (
                             <div className="main-row-subject-table" key={subject.code}>
-                                <p className='p-code-column-inner-heading-main-semester-table'>{subject.code}</p>
+                                <p className='p-code-column-inner-heading-main-semester-table'>{subject.code === 'N/A' ? '' : `${subject.code}`}</p>
                                 <p className='p-title-column-inner-heading-main-semester-table'>{subject.name}</p>
                                 <p className='p-credits-column-inner-heading-main-semester-table'>{subject.credits[0]} + {subject.credits[1]}</p>
                                 {/* <p className='p-pre-req-column-inner-heading-main-semester-table'>{subject.preRequisite}</p> */}

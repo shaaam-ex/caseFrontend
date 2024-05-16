@@ -171,7 +171,7 @@ export default function ComputerScience() {
                             Computer Engineering, Software Engineering, and Computer Science. 
                             
                             <br />
-                            We have already graduated more than +2000 students who have already 
+                            {/* We have already graduated more than +2000 students who have already 
                             taken important positions in various national and multinational 
                             organizations.
 
@@ -183,7 +183,7 @@ export default function ComputerScience() {
                             continue to provide quality research and educational 
                             experience to equip the next generation of Top notch brilliant Engineers and Computer Scientists.
 
-                            I welcome you to be part of this faculty.
+                            I welcome you to be part of this faculty. */}
                         </p>
                     </div>
                 </div>
