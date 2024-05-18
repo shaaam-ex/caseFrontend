@@ -9,6 +9,10 @@ const page = () => {
     const [currentForm, setCurrentForm] = useState(1);
     const [availablePrograms, setAvailablePrograms] = useState([]);
 
+    const handleNextButton = () => {
+        currentForm < 4 ? setCurrentForm(currentForm+1) : setCurrentForm(currentForm);
+    }
+
     useEffect(() => {
         setAvailablePrograms([
             {
@@ -121,7 +125,7 @@ const page = () => {
                         <div className="application-apply-now-form-submitted apply-now-form-disabled"></div>
 
                         <div className="button-container-apply-now-form">
-                            <button className='next-button-apply-now-form'>
+                            <button onClick={handleNextButton} className='next-button-apply-now-form'>
                                 {
                                     currentForm === 4 ? "Finish" : "Next"
                                 }

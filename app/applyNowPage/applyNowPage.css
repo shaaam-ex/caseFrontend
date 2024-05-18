@@ -48,7 +48,6 @@
 }
 
 .third-div-apply-now-page {
-    padding-left: 8vmax;
     text-align: center;
 }
 
@@ -95,9 +94,7 @@
 
 .apply-now-form-visible {
     display: block;
-    width: 60vw;
-
-    margin-left: 16vmax;
+    width: 100vw;
 
     display: flex;
     flex-direction: column;
@@ -143,10 +140,9 @@ input[type="radio"]:hover {
 }
 
 .button-container-apply-now-form {
-    width: 60vw;
+    width: 100vw;
 
     margin-top: 2vmax;
-    margin-left: 16vmax;
     text-align: center;
 }
 
@@ -156,4 +152,11 @@ input[type="radio"]:hover {
     background-color: #16417d;
     border-radius: 6px;
     color: white;
+
+    transition: 0.22s ease-in-out;
+}
+
+.next-button-apply-now-form:hover {
+    background-color: #3f69a4;
+    cursor: pointer;
 }
