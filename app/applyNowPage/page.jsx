@@ -81,25 +81,25 @@ const page = () => {
                         <h1>Application Form</h1>
                         <div className="status-indicator-container-third-div-apply-now-page">
                             <div className="individual-status-container-third-div-apply-now-page">
-                                <p>1</p>
+                                <p style={currentForm !== 1 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>1</p>
                                 <p className='checkMark-disabled' id='checkMark-qualification'><CgCheck /></p>
                                 <p>Qualification</p>
                             </div>
                             
                             <div className="individual-status-container-third-div-apply-now-page">
-                                <p>2</p>
+                                <p style={currentForm !== 2 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>2</p>
                                 <p className='checkMark-disabled' id='checkMark-details'><CgCheck /></p>
                                 <p>Details</p>
                             </div>
 
                             <div className="individual-status-container-third-div-apply-now-page">
-                                <p>3</p>
+                                <p style={currentForm !== 3 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>3</p>
                                 <p className='checkMark-disabled' id='checkMark-confirm'><CgCheck /></p>
                                 <p>Confirm</p>
                             </div>
 
                             <div className="individual-status-container-third-div-apply-now-page">
-                                <p>4</p>
+                                <p style={currentForm !== 4 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>4</p>
                                 <p className='checkMark-disabled' id='checkMark-submitted'><CgCheck /></p>
                                 <p>Submitted</p>
                             </div>
@@ -110,7 +110,7 @@ const page = () => {
                             {
                                 availablePrograms.map(curr => (
                                     <div className='individual-program-apply-now-form' key={curr.code}>
-                                        <input type="radio" name="individual-program-apply-now-radio" id="individual-program-apply-now-radio" />
+                                        <input type="radio" name="individual-program-apply-now-radio" id="individual-program-apply-now-radio" value={curr.code} />
                                         <p>{curr.name}</p>
                                     </div>
                                 ))
