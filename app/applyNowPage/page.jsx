@@ -1,4 +1,5 @@
 import './applyNowPage.css';
+import { CgCheck } from "react-icons/cg";
 
 const page = () => {
     return (
@@ -41,6 +42,37 @@ const page = () => {
                     <div className="second-div-apply-now-page">
                         <h1>Before you Apply</h1>
                         <a href="#">Click here to check Eligibility criteria</a>
+                    </div>
+
+                    <div className="space-container-apply-now-page"></div>
+
+                    <div className="third-div-apply-now-page">
+                        <h1>Application Form</h1>
+                        <div className="status-indicator-container-third-div-apply-now-page">
+                            <div className="individual-status-container-third-div-apply-now-page">
+                                <p>1</p>
+                                <p className='checkMark-disabled' id='checkMark-qualification'><CgCheck /></p>
+                                <p>Qualification</p>
+                            </div>
+                            
+                            <div className="individual-status-container-third-div-apply-now-page">
+                                <p>2</p>
+                                <p className='checkMark-disabled' id='checkMark-details'><CgCheck /></p>
+                                <p>Details</p>
+                            </div>
+
+                            <div className="individual-status-container-third-div-apply-now-page">
+                                <p>3</p>
+                                <p className='checkMark-disabled' id='checkMark-confirm'><CgCheck /></p>
+                                <p>Confirm</p>
+                            </div>
+
+                            <div className="individual-status-container-third-div-apply-now-page">
+                                <p>4</p>
+                                <p className='checkMark-disabled' id='checkMark-submitted'><CgCheck /></p>
+                                <p>Submitted</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

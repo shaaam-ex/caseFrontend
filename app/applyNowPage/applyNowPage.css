@@ -44,4 +44,49 @@
 
 .second-div-apply-now-page > a {
     font-size: 1vmax;
+    color: #3f69a4;
+}
+
+.third-div-apply-now-page {
+    padding-left: 8vmax;
+}
+
+.status-indicator-container-third-div-apply-now-page {
+    margin-top: 2vmax;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.individual-status-container-third-div-apply-now-page {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 120px;
+}
+
+.individual-status-container-third-div-apply-now-page > p {
+    font-size: 16px;
+}
+
+.individual-status-container-third-div-apply-now-page > p:first-child {
+    width: 15px;
+
+    padding: 8px;
+    border-radius: 50%;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    background-color: #25508c;
+    color: white;
+}
+
+.checkMark-disabled {
+    display: none;
 }
