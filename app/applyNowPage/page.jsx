@@ -119,6 +119,14 @@ const page = () => {
                         <div className="application-apply-now-form-details apply-now-form-disabled"></div>
                         <div className="application-apply-now-form-confirm apply-now-form-disabled"></div>
                         <div className="application-apply-now-form-submitted apply-now-form-disabled"></div>
+
+                        <div className="button-container-apply-now-form">
+                            <button>
+                                {
+                                    currentForm === 4 ? "Finish" : "Next"
+                                }
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

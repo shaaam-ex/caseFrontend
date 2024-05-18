@@ -49,6 +49,7 @@
 
 .third-div-apply-now-page {
     padding-left: 8vmax;
+    text-align: center;
 }
 
 .status-indicator-container-third-div-apply-now-page {
@@ -100,13 +101,14 @@
 
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 
     margin-top: 2vmax;
 }
 
 .apply-now-form-visible > h2 {
     width: 60vw;
+    text-align: center;
 }
 
 .apply-now-form-disabled {
@@ -138,4 +140,14 @@ input[type="radio"]:hover {
 
 .individual-program-apply-now-form > p {
     margin-left: 0.5vmax;
+}
+
+.button-container-apply-now-form {
+    width: 60vw;
+
+    margin-top: 2vmax;
+    margin-left: 16vmax;
+    text-align: center;
+
+    border: 1px solid red;
 }
