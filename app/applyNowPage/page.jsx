@@ -37,6 +37,12 @@ const page = () => {
         ])
     }, [])
 
+    useEffect(() => {
+        currentForm > 1 ? document.querySelector(`.apply-now-${currentForm - 1}`).classList.add('apply-now-form-disabled') : {};
+
+        document.querySelector(`.apply-now-${currentForm}`).classList.remove('apply-now-form-disabled');
+    }, [currentForm])
+
     return (
         <>
             <div className="main-container-apply-now-page">
@@ -109,7 +115,7 @@ const page = () => {
                             </div>
                         </div>
 
-                        <div className="application-apply-now-form-qualification apply-now-form-visible">
+                        <div className="application-apply-now-form-qualification apply-now-form-visible apply-now-1">
                             <h2>Choose your desired Course</h2>
                             {
                                 availablePrograms.map(curr => (
@@ -120,9 +126,15 @@ const page = () => {
                                 ))
                             }
                         </div>
-                        <div className="application-apply-now-form-details apply-now-form-disabled"></div>
-                        <div className="application-apply-now-form-confirm apply-now-form-disabled"></div>
-                        <div className="application-apply-now-form-submitted apply-now-form-disabled"></div>
+                        <div className="application-apply-now-form-details apply-now-form-disabled apply-now-2">
+                            apply2
+                        </div>
+                        <div className="application-apply-now-form-confirm apply-now-form-disabled apply-now-3">
+                            apply3
+                        </div>
+                        <div className="application-apply-now-form-submitted apply-now-form-disabled apply-now-4">
+                            apply4
+                        </div>
 
                         <div className="button-container-apply-now-form">
                             <button onClick={handleNextButton} className='next-button-apply-now-form'>
