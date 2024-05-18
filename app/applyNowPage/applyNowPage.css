@@ -2,3 +2,46 @@
     height: 10vh;
 }
 
+.first-div-apply-now-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* background-image: url('https://res.cloudinary.com/dm1hjjfsz/image/upload/v1716053221/case/apply_now_grey_bg_fcq1ax.jpg'); */
+}
+
+.text-div-first-div-apply-now-page {
+    width: 60rem;
+
+    padding-left: 8vmax;
+
+    font-family: "Playfair Display";
+
+    line-height: 0.6;
+}
+
+.text-div-first-div-apply-now-page > h1 {
+    font-size: 5vmax;
+    font-weight: 600;
+}
+
+.text-div-first-div-apply-now-page > h2 {
+    font-size: 1.3vmax;
+    color: #445368;
+}
+
+.img-div-first-div-apply-now-page > img {
+    width: 35vw;
+}
+
+.second-div-apply-now-page {
+    padding-left: 8vmax;
+}
+
+.second-div-apply-now-page > h1 {
+    font-size: 2.5vmax;
+}
+
+.second-div-apply-now-page > a {
+    font-size: 1vmax;
+}

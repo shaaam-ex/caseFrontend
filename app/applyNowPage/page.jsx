@@ -28,8 +28,19 @@ const page = () => {
                     <div className="first-div-apply-now-page">
                         <div className="text-div-first-div-apply-now-page">
                             <h1>Apply Now!</h1>
-                            <h2>To join 800+ others</h2>
+                            <h2>To join 800+ other skillful students at CASE</h2>
                         </div>
+
+                        <div className="img-div-first-div-apply-now-page">
+                            <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1716051315/case/apply_now_student_smiling_1_nhwah5.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <div className="space-container-apply-now-page"></div>
+
+                    <div className="second-div-apply-now-page">
+                        <h1>Before you Apply</h1>
+                        <a href="#">Click here to check Eligibility criteria</a>
                     </div>
                 </div>
             </div>
