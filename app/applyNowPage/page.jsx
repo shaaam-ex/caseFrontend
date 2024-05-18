@@ -1,7 +1,25 @@
+import { useEffect, useState } from 'react';
 import './applyNowPage.css';
 import { CgCheck } from "react-icons/cg";
 
 const page = () => {
+
+    const [availablePrograms, setAvailablePrograms] = useState([]);
+
+    useEffect(() => {
+        setAvailablePrograms([
+            {
+                name: 'Bachelors of Computer Science [BSCS]',
+                code: 'BSCS'
+            },
+            
+            {
+                name: 'Bachelors of Computer Science [BSCS]',
+                code: 'BSCS'
+            },
+        ])
+    }, [])
+
     return (
         <>
             <div className="main-container-apply-now-page">
