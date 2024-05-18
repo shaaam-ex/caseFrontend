@@ -1,9 +1,12 @@
+'use client'
+
 import { useEffect, useState } from 'react';
 import './applyNowPage.css';
 import { CgCheck } from "react-icons/cg";
 
 const page = () => {
 
+    const [currentForm, setCurrentForm] = useState(1);
     const [availablePrograms, setAvailablePrograms] = useState([]);
 
     useEffect(() => {
@@ -12,11 +15,21 @@ const page = () => {
                 name: 'Bachelors of Computer Science [BSCS]',
                 code: 'BSCS'
             },
-            
+
             {
-                name: 'Bachelors of Computer Science [BSCS]',
-                code: 'BSCS'
+                name: 'Bachelors of Software Engineering [BSSE]',
+                code: 'BSSE'
             },
+
+            {
+                name: 'Bachelors of Artificial Intelligence',
+                code: 'BSAI'
+            },
+
+            {
+                name: 'Bachelors of Cyber Security',
+                code: 'BSCYS'
+            }
         ])
     }, [])
 
@@ -91,6 +104,21 @@ const page = () => {
                                 <p>Submitted</p>
                             </div>
                         </div>
+
+                        <div className="application-apply-now-form-qualification apply-now-form-visible">
+                            <h2>Choose your desired Course</h2>
+                            {
+                                availablePrograms.map(curr => (
+                                    <div className='individual-program-apply-now-form' key={curr.code}>
+                                        <input type="radio" name="individual-program-apply-now-radio" id="individual-program-apply-now-radio" />
+                                        <p>{curr.name}</p>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                        <div className="application-apply-now-form-details apply-now-form-disabled"></div>
+                        <div className="application-apply-now-form-confirm apply-now-form-disabled"></div>
+                        <div className="application-apply-now-form-submitted apply-now-form-disabled"></div>
                     </div>
                 </div>
             </div>

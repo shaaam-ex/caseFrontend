@@ -72,6 +72,7 @@
 
 .individual-status-container-third-div-apply-now-page > p {
     font-size: 16px;
+    font-weight: bold;
 }
 
 .individual-status-container-third-div-apply-now-page > p:first-child {
@@ -89,4 +90,52 @@
 
 .checkMark-disabled {
     display: none;
+}
+
+.apply-now-form-visible {
+    display: block;
+    width: 60vw;
+
+    margin-left: 16vmax;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    margin-top: 2vmax;
+}
+
+.apply-now-form-visible > h2 {
+    width: 60vw;
+}
+
+.apply-now-form-disabled {
+    display: none;
+}
+
+.individual-program-apply-now-form {
+    width: 40vw;
+    
+    margin: 0.8vmax 0;
+
+    border: 1px solid #445368;
+    border-left: 12px solid #25508c;
+    border-radius: 13px;
+
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    height: 18px;
+    width: 18px;
+    margin-left: 1.3vmax;
+}
+
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+.individual-program-apply-now-form > p {
+    margin-left: 0.5vmax;
 }
