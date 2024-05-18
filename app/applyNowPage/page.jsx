@@ -121,7 +121,7 @@ const page = () => {
                         <div className="application-apply-now-form-submitted apply-now-form-disabled"></div>
 
                         <div className="button-container-apply-now-form">
-                            <button>
+                            <button className='next-button-apply-now-form'>
                                 {
                                     currentForm === 4 ? "Finish" : "Next"
                                 }

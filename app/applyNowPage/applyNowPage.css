@@ -148,6 +148,12 @@ input[type="radio"]:hover {
     margin-top: 2vmax;
     margin-left: 16vmax;
     text-align: center;
+}
 
-    border: 1px solid red;
+.next-button-apply-now-form {
+    padding: 0.7vmax 2vmax;
+
+    background-color: #16417d;
+    border-radius: 6px;
+    color: white;
 }
