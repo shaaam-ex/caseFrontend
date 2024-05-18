@@ -73,7 +73,7 @@ export default function LandingPage() {
                                     <h3 className='h3-banner-standard'><a href="#">HOSTEL</a> and <a href="#">TRANSPORT</a></h3>
                                     <h3 className='h3-banner-standard'>AVAILABLE</h3>
                                     <h3 className='h3-banner-standard'><a href="#">Click here for degree programs</a></h3>
-                                    <Link id='testbutton' className='standard-button-banner-medium standard-button' href={'#'}>Apply Now</Link>
+                                    <Link id='testbutton' className='standard-button-banner-medium standard-button' href={'/applyNowPage'}>Apply Now</Link>
                                 </div>
                             </div>
                         </SwiperSlide>
