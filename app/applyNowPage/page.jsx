@@ -184,7 +184,12 @@ const page = () => {
                         </div>
 
                         <div className="application-apply-now-form-confirm apply-now-form-disabled apply-now-3">
-                            apply3
+                            <h4>Please make sure that all the provided details are correct.</h4>
+                            
+                            <div className="inner-div-apply-now-3">
+                                <input type="checkbox" name="hereby-state-user-apply-now-page" id="hereby-state-user-apply-now-page" />
+                                <p>s</p>
+                            </div>
                         </div>
 
                         <div className="application-apply-now-form-submitted apply-now-form-disabled apply-now-4">
