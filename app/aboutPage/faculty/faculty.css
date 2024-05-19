@@ -11,6 +11,18 @@
     margin-left: 8vmax;
 }
 
+.input-faculty-div > h3 {
+    font-size: 1.2vmax;
+}
+
+.input-faculty-page {
+    width: 15vw;
+    height: 6vh;
+
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 6px;
+}
+
 .main-faculty-display-faculty-page {
     display: flex;
     flex-wrap: wrap;

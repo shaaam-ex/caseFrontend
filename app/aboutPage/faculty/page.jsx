@@ -98,7 +98,7 @@ const page = () => {
                     <div className="input-faculty-div">
                         <h3>Select Department</h3>
                     
-                        <select name="input-faculty" id="input-faculty">
+                        <select className='input-faculty-page' name="input-faculty" id="input-faculty">
                             <option value="ComputerScience">Computer Science</option>
                             <option value="BSEE">Electrical Engineering</option>
                             <option value="BBA">BBA</option>
