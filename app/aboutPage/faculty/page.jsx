@@ -91,20 +91,22 @@ const page = () => {
                 />
             </head>
 
-            <div className="main-container-faculty-page">
-                <h1>Our Faculty</h1>
+            <div className="outer-container-faculty-page">
+                <div className="main-container-faculty-page">
+                    <h1>Our Faculty</h1>
                 
-                <div className="input-faculty-div">
-                    <h3>Select Department</h3>
+                    <div className="input-faculty-div">
+                        <h3>Select Department</h3>
                     
-                    <select name="input-faculty" id="input-faculty">
-                        <option value="ComputerScience">Computer Science</option>
-                        <option value="BSEE">Electrical Engineering</option>
-                        <option value="BBA">BBA</option>
-                    </select>
-                </div>
+                        <select name="input-faculty" id="input-faculty">
+                            <option value="ComputerScience">Computer Science</option>
+                            <option value="BSEE">Electrical Engineering</option>
+                            <option value="BBA">BBA</option>
+                        </select>
+                    </div>
 
-                <div className="main-faculty-display-faculty-page">
+                    <div className="main-faculty-display-faculty-page">
+                    </div>
                 </div>
             </div>
         </>

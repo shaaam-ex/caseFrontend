@@ -1,4 +1,12 @@
+.outer-container-faculty-page {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-container-faculty-page {
+    width: 60vw;
     margin-top: 16vh;
-    min-height: 80vh
+    min-height: 80vh;
+
+    margin-left: 8vmax;
 }
