@@ -146,16 +146,47 @@ const page = () => {
                                 ))
                             }
                         </div>
+
                         <div className="application-apply-now-form-details apply-now-form-disabled apply-now-2">
-                            <div className="full-name-container-apply-now-2">
+                            <div className="full-name-container-apply-now-2 default-input-container-apply-now-page">
                                 <h3>Full Name</h3>
-                                <input type="text" name="full-name-input-box" id="full-name-input-box" />
+                                <input type="text" className='full-name-input-box-apply-now-2' name="full-name-input-box" id="full-name-input-box" />
                             </div>
-                            <div className="father-name-container-apply-now-2"></div>
+                            
+                            <div className="father-name-container-apply-now-2 default-input-container-apply-now-page">
+                                <h3>Father Name</h3>
+                                <input type="text" className='father-name-input-box-apply-now-2' name="father-name-input-box" id="father-name-input-box" />
+                            </div>
+
+                            <div className="cnic-container-apply-now-2 default-input-container-apply-now-page">
+                                <h3>CNIC Number</h3>
+                                <input type="number" placeholder='xxxxx-xxxxxxx-x' className='cnic-input-box-apply-now-2' name="cnic-input-box" id="cnic-input-box" />
+                            </div>
+
+                            <div className="address-container-apply-now-2 default-input-container-apply-now-page">
+                                <h3>Current Address</h3>
+                                <input type="text" className='address-input-box-apply-now-2' name="address-input-box" id="address-input-box" />
+                            </div>
+
+                            <div className="board-container-apply-now-2 default-input-container-apply-now-page">
+                                <h3>Board</h3>
+                                <select className='board-apply-now-page' name="board-apply-now" id="board-apply-now">
+                                    <option value="FBISE" selected>FBISE</option>
+                                    <option value="BISE-RWP">Rawalpindi - BISE</option>
+                                    <option value="BISE-GUJR">Rawalpindi - Gujranwala</option>
+                                </select>
+                            </div>
+
+                            <div className="secured-marks-container-apply-now-2 default-input-container-apply-now-page">
+                                <h3>Secured Marks</h3>
+                                <input type="number" placeholder='secured/total' className='secured-marks-input-box-apply-now-2' name="secured-marks-input-box" id="secured-marks-input-box" />
+                            </div>
                         </div>
+
                         <div className="application-apply-now-form-confirm apply-now-form-disabled apply-now-3">
                             apply3
                         </div>
+
                         <div className="application-apply-now-form-submitted apply-now-form-disabled apply-now-4">
                             apply4
                         </div>

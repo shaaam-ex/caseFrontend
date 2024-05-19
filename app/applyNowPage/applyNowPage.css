@@ -49,6 +49,10 @@
 
 .third-div-apply-now-page {
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .status-indicator-container-third-div-apply-now-page {
@@ -171,4 +175,33 @@ input[type="radio"]:hover {
 .next-button-apply-now-form:hover {
     background-color: #3f69a4;
     cursor: pointer;
+}
+
+.default-input-container-apply-now-page {
+    width: 22vw;
+}
+
+.default-input-container-apply-now-page > h3 {
+    font-size: 1.2vmax;
+    margin-bottom: 0.3vmax;
+
+    text-align: left;
+}
+
+.default-input-container-apply-now-page > input[type = "text"],
+.default-input-container-apply-now-page > input[type = "number"],
+.default-input-container-apply-now-page > input[type = "email"] {
+    padding: 0.6vmax 0.5vmax;
+    width: 21vw;
+
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.board-apply-now-page {
+    padding: 0.6vmax 0.5vmax;
+    width: 22vw;
+
+    border: 1px solid gray;
+    border-radius: 8px;
 }
