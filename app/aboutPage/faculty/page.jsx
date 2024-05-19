@@ -106,6 +106,15 @@ const page = () => {
                     </div>
 
                     <div className="main-faculty-display-faculty-page">
+                        {
+                            faculty.map(curr => (
+                                <div className='individual-teacher-card-faculty-page'>
+                                    <img src={curr.img} alt="" />
+                                    <h4>{curr.name}</h4>
+                                    <p>{curr.position}</p>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </div>
