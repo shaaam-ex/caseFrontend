@@ -395,6 +395,14 @@ const page = () => {
                     </div>
                 </div>
 
+                <div className="head-slogan-cs-page">
+                    <h3>
+                        "Empowering Tomorrow's Innovators: Equipping Computer 
+                        Science Students to Code, Create, and Conquer the Future!"
+                    </h3>
+                    <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1716138459/case/faculty/cs/sir_jawad_passport_w8ry7g.webp" alt="" />
+                </div>
+
                 <div className="basic-info-cs">
                     <div className="first-div-basic-info-cs">
                         <div className="program-info-cs-first-div">

@@ -124,6 +124,14 @@
     text-align: center;
 }
 
+.apply-now-4 {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .apply-now-form-disabled {
     display: none;
 }
@@ -204,4 +212,57 @@ input[type="radio"]:hover {
 
     border: 1px solid gray;
     border-radius: 8px;
+}
+
+.inner-div-apply-now-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-div-apply-now-3 > p {
+    font-size: 14px;
+}
+
+.inner-div-apply-now-3 > input[type = "checkbox"]:hover {
+    cursor: pointer;
+}
+
+.animated-check-circum-success {
+    font-size: 4vmax;
+
+    color: green;
+
+    animation: popInRotate 0.5s linear;
+}
+
+.apply-now-4 > h3 {
+    animation: popIn 1s linear;
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes popInRotate {
+    0% {
+        transform: scale(0.5) rotate(0deg);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(0.5) rotate(180deg);
+        opacity: 0.5;
+    }
+    80% {
+        transform: scale(1.1) rotate(270deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
 }

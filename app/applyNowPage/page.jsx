@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import './applyNowPage.css';
-import { CgCheck } from "react-icons/cg";
+import { CgCheck, CgCheckO } from "react-icons/cg";
 
 const page = () => {
 
@@ -188,19 +188,18 @@ const page = () => {
                             
                             <div className="inner-div-apply-now-3">
                                 <input type="checkbox" name="hereby-state-user-apply-now-page" id="hereby-state-user-apply-now-page" />
-                                <p>s</p>
+                                <p>I hereby confirm that all the provided details are correct.</p>
                             </div>
                         </div>
 
                         <div className="application-apply-now-form-submitted apply-now-form-disabled apply-now-4">
-                            apply4
+                            <CgCheckO className='animated-check-circum-success' />
+                            <h3>Application Submitted Successfully</h3>
                         </div>
 
                         <div className="button-container-apply-now-form">
-                            <button onClick={handleNextButton} className='next-button-apply-now-form'>
-                                {
-                                    currentForm === 4 ? "Finish" : "Next"
-                                }
+                            <button style={currentForm === 4 ? {display: 'none'} : {}} onClick={handleNextButton} className='next-button-apply-now-form'>
+                                Next
                             </button>
                         </div>
                     </div>

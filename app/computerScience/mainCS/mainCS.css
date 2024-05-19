@@ -25,6 +25,32 @@
     z-index: 5;
 }
 
+.head-slogan-cs-page {
+    margin-top: 2vmax;
+
+    color: white;
+    background-color: #0d3460;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+    gap: 1vmax;
+
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 30%;
+}
+
+.head-slogan-cs-page > h3 {
+    width: 40vw;
+}
+
+.head-slogan-cs-page > img {
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
 .basic-info-cs {
     display: flex;
     justify-content: center;
