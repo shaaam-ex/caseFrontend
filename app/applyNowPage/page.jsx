@@ -40,10 +40,24 @@ const page = () => {
     useEffect(() => {
         if(currentForm > 1) { 
             document.querySelector(`.apply-now-${currentForm - 1}`).classList.add('apply-now-form-disabled');
+
+
             document.querySelector(`.apply-now-${currentForm}`).classList.remove('apply-now-form-disabled');
 
-            // Updating Pagination Status
+            // Indicators
+            document.querySelector(`.active-individual-status-container-apply-now-page`).classList.remove('active-individual-status-container-apply-now-page');
 
+            if(currentForm == 2) {
+                document.querySelector('.details-individual-status-container-apply-now-page').classList.add('active-individual-status-container-apply-now-page');
+            }
+
+            else if(currentForm == 3) {
+                document.querySelector('.confirm-individual-status-container-apply-now-page').classList.add('active-individual-status-container-apply-now-page');
+            }
+
+            else if(currentForm == 4) {
+                document.querySelector('.submitted-individual-status-container-apply-now-page').classList.add('active-individual-status-container-apply-now-page');
+            }
         }
     }, [currentForm])
 
@@ -108,7 +122,8 @@ const page = () => {
                             </div>
 
                             <div className="individual-status-container-third-div-apply-now-page confirm-individual-status-container-apply-now-page">
-                                <p style={currentForm !== 3 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>3</p>
+                                {/* <p style={currentForm !== 3 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>3</p> */}
+                                <p>3</p>
                                 <p className='checkMark-disabled' id='checkMark-confirm'><CgCheck /></p>
                                 <p>Confirm</p>
                             </div>

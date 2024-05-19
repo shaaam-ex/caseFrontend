@@ -70,10 +70,6 @@
     width: 120px;
 }
 
-.active-individual-status-container-apply-now-page {
-    font-weight: bold;
-}
-
 .individual-status-container-third-div-apply-now-page > p {
     font-size: 16px;
 }
@@ -87,6 +83,19 @@
     font-size: 13px;
     font-weight: bold;
 
+    /* background-color: #25508c;
+    color: white; */
+
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+.active-individual-status-container-apply-now-page > p {
+    font-weight: bold;
+}
+
+.active-individual-status-container-apply-now-page > p:first-child {
     background-color: #25508c;
     color: white;
 }
