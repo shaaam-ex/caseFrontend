@@ -29,7 +29,7 @@ const page = () => {
 
             {
                 img: 'https://case.edu.pk/wp-content/uploads/2023/06/Mr.-Abdur-Rehman-Lecturer--250x250.webp',
-                name: 'Mr. Abdur Rehman Lecturer',
+                name: 'Mr. Abdur Rehman',
                 position: 'Lecturer'
             },
 
