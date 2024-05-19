@@ -93,7 +93,7 @@ export default function Header() {
                         </li> {/* DropDown */}
 
                         <li>
-                            <Link href='#'>About</Link>
+                            <Link href='/aboutPage'>About</Link>
                         </li>
                     </ul>
                 </div>
