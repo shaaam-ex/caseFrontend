@@ -70,9 +70,12 @@
     width: 120px;
 }
 
+.active-individual-status-container-apply-now-page {
+    font-weight: bold;
+}
+
 .individual-status-container-third-div-apply-now-page > p {
     font-size: 16px;
-    font-weight: bold;
 }
 
 .individual-status-container-third-div-apply-now-page > p:first-child {

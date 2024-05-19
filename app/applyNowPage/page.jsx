@@ -38,9 +38,13 @@ const page = () => {
     }, [])
 
     useEffect(() => {
-        currentForm > 1 ? document.querySelector(`.apply-now-${currentForm - 1}`).classList.add('apply-now-form-disabled') : {};
+        if(currentForm > 1) { 
+            document.querySelector(`.apply-now-${currentForm - 1}`).classList.add('apply-now-form-disabled');
+            document.querySelector(`.apply-now-${currentForm}`).classList.remove('apply-now-form-disabled');
 
-        document.querySelector(`.apply-now-${currentForm}`).classList.remove('apply-now-form-disabled');
+            // Updating Pagination Status
+
+        }
     }, [currentForm])
 
     return (
@@ -82,6 +86,7 @@ const page = () => {
 
                     <div className="second-div-apply-now-page">
                         <h1>Before you Apply</h1>
+                        <p>Get ready to apply for admission to study with CASE by checking out the eligibility criteria:</p>
                         <a href="#">Click here to check Eligibility criteria</a>
                     </div>
 
@@ -90,25 +95,25 @@ const page = () => {
                     <div className="third-div-apply-now-page">
                         <h1>Application Form</h1>
                         <div className="status-indicator-container-third-div-apply-now-page">
-                            <div className="individual-status-container-third-div-apply-now-page">
+                            <div className="individual-status-container-third-div-apply-now-page qualification-individual-status-container-apply-now-page active-individual-status-container-apply-now-page">
                                 <p style={currentForm !== 1 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>1</p>
                                 <p className='checkMark-disabled' id='checkMark-qualification'><CgCheck /></p>
                                 <p>Qualification</p>
                             </div>
                             
-                            <div className="individual-status-container-third-div-apply-now-page">
+                            <div className="individual-status-container-third-div-apply-now-page details-individual-status-container-apply-now-page">
                                 <p style={currentForm !== 2 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>2</p>
                                 <p className='checkMark-disabled' id='checkMark-details'><CgCheck /></p>
                                 <p>Details</p>
                             </div>
 
-                            <div className="individual-status-container-third-div-apply-now-page">
+                            <div className="individual-status-container-third-div-apply-now-page confirm-individual-status-container-apply-now-page">
                                 <p style={currentForm !== 3 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>3</p>
                                 <p className='checkMark-disabled' id='checkMark-confirm'><CgCheck /></p>
                                 <p>Confirm</p>
                             </div>
 
-                            <div className="individual-status-container-third-div-apply-now-page">
+                            <div className="individual-status-container-third-div-apply-now-page submitted-individual-status-container-apply-now-page">
                                 <p style={currentForm !== 4 ? {backgroundColor: 'white', color: 'black', border: '1px solid'} : {}}>4</p>
                                 <p className='checkMark-disabled' id='checkMark-submitted'><CgCheck /></p>
                                 <p>Submitted</p>
@@ -127,7 +132,11 @@ const page = () => {
                             }
                         </div>
                         <div className="application-apply-now-form-details apply-now-form-disabled apply-now-2">
-                            apply2
+                            <div className="full-name-container-apply-now-2">
+                                <h3>Full Name</h3>
+                                <input type="text" name="full-name-input-box" id="full-name-input-box" />
+                            </div>
+                            <div className="father-name-container-apply-now-2"></div>
                         </div>
                         <div className="application-apply-now-form-confirm apply-now-form-disabled apply-now-3">
                             apply3
