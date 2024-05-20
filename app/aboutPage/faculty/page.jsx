@@ -5,10 +5,13 @@ import { useEffect, useState } from 'react';
 import './faculty.css';
 
 const page = () => {
-    const [faculty, setFaculty] = useState([]);
+    const [faculty, setFaculty] = useState({});
+
+    const[current, setCurrent] = useState('CS');
 
     useEffect(() => {
-        setFaculty([
+        setFaculty({
+            'CS': [
             {
                 img: 'https://case.edu.pk/wp-content/uploads/2023/05/DrAyubAlvi-250x250.jpg',
                 name: 'Dr. Ayub Alvi',
@@ -42,7 +45,7 @@ const page = () => {
             {
                 img: 'https://case.edu.pk/wp-content/uploads/2023/06/Mr.-Hamid-Ashfaq-Lab-Engineer--250x250.webp',
                 name: 'Mr. Hamid Ashfaq',
-                position: 'Lab Engineer'
+                position: 'Lecturer'
             },
 
             {
@@ -68,8 +71,13 @@ const page = () => {
                 name: 'Ms. Mussarat Fatima',
                 position: 'Lecturer '
             },
-        ])
+        ]
+    })
     }, [])
+
+    const updateCurrent = (e) => {
+        setCurrent(e.target.value);
+    }
 
     return (
         <>
@@ -100,10 +108,10 @@ const page = () => {
                         <div className="input-faculty-div">
                             <h3>Select Department</h3>
                 
-                            <select className='input-faculty-page' name="input-faculty" id="input-faculty">
+                            <select className='input-faculty-page' name="input-faculty" id="input-faculty"  onChange={updateCurrent}>
                                 <option value="ComputerScience">Computer Science</option>
-                                <option value="BSEE">Electrical Engineering</option>
-                                <option value="BBA">BBA</option>
+                                <option value="EE">Electrical Engineering</option>
+                                <option value="management-sciences">Management sciences</option>
                             </select>
                         </div>
 
@@ -111,7 +119,7 @@ const page = () => {
 
                     <div className="main-faculty-display-faculty-page">
                         {
-                            faculty.map(curr => (
+                            faculty[current] && faculty[current].map(curr => (
                                 <div className='individual-teacher-card-faculty-page'>
                                     <img src={curr.img} alt="" />
                                     <h4>{curr.name}</h4>
