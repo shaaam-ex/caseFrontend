@@ -17,19 +17,50 @@ const page = () => {
                 name: 'Dr. Ayub Alvi',
                 position: 'Professor & Vice Chancellor'
             },
+
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-250x250.jpg',
+                name: 'Dr. Hamood Ur Rehman',
+                position: 'Adjunct Assistant Professor'
+            },
+
             
             {
                 img: 'https://case.edu.pk/wp-content/uploads/2023/06/Dr.-Jawad-Hussain-Assoc-Prof.-_-Chairperson--1024x681-200x200.webp',
                 name: 'Dr. Jawad Hussain',
                 position: 'Assoc Prof & Chairperson'
             },
-
+            
             {
                 img: 'https://case.edu.pk/wp-content/uploads/2023/05/dr_shoab-700x680-1-250x250.jpg',
                 name: 'Dr. Shoaib Khan',
                 position: 'Adjunct Professor & Chancellor'
             },
 
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-250x250.jpg',
+                name: 'Dr. Yasir Jan',
+                position: 'Assistant Professor'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Mr. Adeel Shabbir',
+                position: 'Adjunct Assistant Professor'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Mr. Muhammad Ahmad',
+                position: 'Senior Lecturer'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Mr. Waqas Ahmed',
+                position: 'Senior Lecturer'
+            },
+            
             {
                 img: 'https://case.edu.pk/wp-content/uploads/2023/06/Mr.-Abdur-Rehman-Lecturer--250x250.webp',
                 name: 'Mr. Abdur Rehman',
@@ -49,9 +80,15 @@ const page = () => {
             },
 
             {
-                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Mr.-Muhammad-Riaz-Senior-Lecturer--250x250.webp',
-                name: 'Mr. Muhammad Riaz',
-                position: 'Senior Lecturer'
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Mr. Nouman Asim',
+                position: 'Lecturer'
+            },
+
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Mr. Umer Farooq',
+                position: 'Lecturer'
             },
 
             {
@@ -59,11 +96,35 @@ const page = () => {
                 name: 'Mr. Yasir Ali',
                 position: 'Lecturer'
             },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Mr. Zeeshan Aslam',
+                position: 'Lecturer'
+            },
+
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Ms Anam Amjad',
+                position: 'Lecturer'
+            },
 
             {
                 img: 'https://case.edu.pk/wp-content/uploads/2023/06/Ms.-Laiba-Zubair-Lecturer--250x250.webp',
                 name: 'Ms. Laiba Zubair',
                 position: 'Lecturer'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Ms.-Laraib-Javed-Lecturer--250x250.webp',
+                name: 'Ms. Laraib Javed',
+                position: 'Lecturer'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/05/No-Image-Placeholder-500x500.jpg',
+                name: 'Ms. Saadia Mooqaddas',
+                position: 'Senior Lecturer'
             },
 
             {
@@ -154,7 +215,7 @@ const page = () => {
                             <h3>Select Department</h3>
                 
                             <select className='input-faculty-page' name="input-faculty" id="input-faculty"  onChange={updateCurrent}>
-                                <option value="ComputerScience">Computer Science</option>
+                                <option value="CS">Computer Science</option>
                                 <option value="EE">Electrical Engineering</option>
                                 <option value="management-sciences">Management sciences</option>
                             </select>
