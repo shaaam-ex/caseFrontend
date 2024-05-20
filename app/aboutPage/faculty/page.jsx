@@ -71,6 +71,51 @@ const page = () => {
                 name: 'Ms. Mussarat Fatima',
                 position: 'Lecturer '
             },
+        ],
+
+        'EE': [
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Dr.-Abdul-Khaliq-Professor-and-Dean-EE--250x250.webp',
+                name: 'Dr. Abdul Khaliq',
+                position: 'Professor and Dean'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Dr.-Asif-Mughal-Adjunct-Assistant-Professor-250x250.png',
+                name: 'Dr. Asif Mehmood',
+                position: 'Assistant Professor'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Dr.-Mian-Jehanzeb-Assistant-Professor-250x250.png',
+                name: 'Dr. Jehanzeb',
+                position: 'Assistant professor & HoD'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Mr.-Ejaz-Naveed-Senior-Lecturer-250x250.jpeg',
+                name: 'Mr. Ejaz Naveed',
+                position: 'Senior Lecturer'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Mr.-Muhammad-Ishaq-Senior-Lecturer--250x250.webp',
+                name: 'Mr. Muhammad Ishaq',
+                position: 'Senior Lecturer'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Mr-Safdar-Munir-Lab-Engineer-250x250.png',
+                name: 'Mr. Safdar Munir',
+                position: 'Lab Engineer'
+            },
+            
+            {
+                img: 'https://case.edu.pk/wp-content/uploads/2023/06/Ms.-Laiba-Tanveer-Lab-Engineer-1010x1024-200x200.webp',
+                name: 'Ms. Laiba Tanveer',
+                position: 'Lab Engineer'
+            },
+
         ]
     })
     }, [])
