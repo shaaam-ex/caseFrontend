@@ -39,6 +39,8 @@
 
     border: 1px solid rgb(220, 220, 220);
     border-radius: 6px;
+
+    font-size: 1vmax;
 }
 
 .main-faculty-display-faculty-page {
