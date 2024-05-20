@@ -26,7 +26,7 @@
 }
 
 .head-slogan-cs-page {
-    margin: 2vmax 0;
+    margin: 8vmax 0 1.2vmax 0;
 
     color: white;
     /* background-color: #0d3460; */
@@ -51,6 +51,13 @@
 .head-slogan-cs-page > img {
     border: 4px solid white;
     border-radius: 50%;
+}
+
+.head-slogan-name {
+    margin-top: 0;
+
+    text-align: right;
+    margin-right: 14vmax;
 }
 
 .basic-info-cs {

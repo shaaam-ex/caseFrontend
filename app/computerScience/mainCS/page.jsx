@@ -384,16 +384,15 @@ const page = () => {
             </head>
 
             <div className="main-container-main-cs">
-                <div className="banner-image-main-cs">
+                {/* <div className="banner-image-main-cs">
                     <div className="image-main-cs-first">
-                        {/* <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1712585015/case/banners/mainCS/yg1uqa0zjiyfquawlz3q.jpg" alt="" /> */}
                         <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1715848517/case/bs-computer-science-software-dev-scaled_sjknwm.jpg" alt="" />
                     </div>
                     
                     <div className="h2-banner-container-main-cs">
                         <h2>Bachelor's of Computer Science</h2>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="head-slogan-cs-page">
                     <h3>
@@ -402,6 +401,8 @@ const page = () => {
                     </h3>
                     <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1716138459/case/faculty/cs/sir_jawad_passport_w8ry7g.webp" alt="" />
                 </div>
+
+                <h4 className='head-slogan-name'>Dr. Jawad Hussain</h4>
 
                 <div className="basic-info-cs">
                     <div className="first-div-basic-info-cs">
