@@ -92,7 +92,7 @@ const page = () => {
                         </div>
 
                         <div className="img-div-first-div-apply-now-page">
-                            <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1716051315/case/apply_now_student_smiling_1_nhwah5.jpg" alt="" />
+                            <img src="https://www.inp.net.pk/images/20240309171231_customMedium_1300x450_38.webp" alt="" />
                         </div>
                     </div>
 
