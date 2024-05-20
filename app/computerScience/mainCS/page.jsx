@@ -404,6 +404,8 @@ const page = () => {
 
                 <h4 className='head-slogan-name'>Dr. Jawad Hussain</h4>
 
+                <h1 className='department-name-main-heading'>Department of computer science</h1>
+
                 <div className="basic-info-cs">
                     <div className="first-div-basic-info-cs">
                         <div className="program-info-cs-first-div">
