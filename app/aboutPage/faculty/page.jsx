@@ -93,16 +93,20 @@ const page = () => {
 
             <div className="outer-container-faculty-page">
                 <div className="main-container-faculty-page">
-                    <h1>Our Faculty</h1>
-                
-                    <div className="input-faculty-div">
-                        <h3>Select Department</h3>
                     
-                        <select className='input-faculty-page' name="input-faculty" id="input-faculty">
-                            <option value="ComputerScience">Computer Science</option>
-                            <option value="BSEE">Electrical Engineering</option>
-                            <option value="BBA">BBA</option>
-                        </select>
+                    <div className="inner-container-faculty-page">
+                        <h1>Our Faculty</h1>
+                
+                        <div className="input-faculty-div">
+                            <h3>Select Department</h3>
+                
+                            <select className='input-faculty-page' name="input-faculty" id="input-faculty">
+                                <option value="ComputerScience">Computer Science</option>
+                                <option value="BSEE">Electrical Engineering</option>
+                                <option value="BBA">BBA</option>
+                            </select>
+                        </div>
+
                     </div>
 
                     <div className="main-faculty-display-faculty-page">
