@@ -150,6 +150,10 @@ p > ul > li,
     font-size: 17px;
 }
 
+.semester-plan-cs > h2 {
+    font-size: 3vmax;
+}
+
 .program-info-cs-first-div > p,
 .degree-requirements-cs-first-div > p,
 .eligibility-criteria-cs-first-div > p,
