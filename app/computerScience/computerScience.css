@@ -132,7 +132,7 @@
 }
 
 .current-directory-div-second-div-computer-science {
-    width: 60vw;
+    width: 82.5vw;
 
     padding: 0.6vmax 0;
 
@@ -151,7 +151,7 @@
 
 .mission-statement-accreditation-div-second-div-container-computer-science {
     margin-top: 3vmax;
-    width: 60vw;
+    width: 85vw;
     display: flex;
     justify-content: space-between;
 
@@ -216,11 +216,20 @@
 
 .good-news-container-second-div {
     margin-top: 2vmax;
-    width: 60vw;
+    width: 85vw;
 
     color: #666666;
 
     padding-left: 1vmax;
+}
+
+.eligibility-criteria-ol-cs-page {
+    margin-left: 1vmax;
+}
+
+.eligibility-criteria-ol-cs-page > li {
+    display: list-item;
+    list-style: decimal !important;
 }
 
 .good-news-container-second-div > h2 {
@@ -256,7 +265,7 @@
 }
 
 .available-cs-programs-div-second-div-computer-science {
-    width: 60vw;
+    width: 85vw;
     margin-top: 2vmax;
 
     padding-left: 1vmax;

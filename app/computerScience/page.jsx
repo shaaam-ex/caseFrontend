@@ -7,7 +7,7 @@ import { Head } from 'next/head';
 
 
 import { Roboto } from 'next/font/google';
-import Counter from '../counter/page';
+
 import { useEffect } from 'react';
 const roboto = Roboto({
     subsets: ['latin'],
@@ -69,7 +69,7 @@ export default function ComputerScience() {
                         <p><a href="/landingPage">Home</a> <span style={{color: 'rgba(0, 0, 0, 0.6)'}}>/</span> Department of Computer Science</p>
                     </div>
 
-                    <div className="mission-statement-accreditation-div-second-div-container-computer-science">
+                    {/* <div className="mission-statement-accreditation-div-second-div-container-computer-science">
                         <div className="mission-statement-div-cs">
                             <h1>Mission Statement</h1>
                                 <p>
@@ -94,24 +94,32 @@ export default function ComputerScience() {
                                 Engineering in Progress.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="good-news-container-second-div">
-                        <h2>Good News for Intermediate and Equivalent Pre-Medical Students</h2>
+                        {/* <h2>Good News for Intermediate and Equivalent Pre-Medical Students</h2> */}
+                        <h2>Eligibility Criteria</h2>
                         <p>
-                            <span>All bachelor’s Programs of the Department of Computer Science are offered for FSC Pre-Medical students.</span>
+                            <span>All bachelor’s Programs of the Department of Computer Science are offered for FSC, ICS and Pre-Medical students.</span>
                             <br />
                             <br />
                             The National Computing Education & Accreditation
                             Council (NCEAC) of HEC has approved the admissions in 
-                            Computing programs for those students who have done 
-                            intermediate education (FSC or equivalent) in 
-                            Pre-Medical with a minimum of 50% marks. These students
-                            are required to pass deficiency courses of Mathematics 
-                            of 6 credit hours within 1 year of their regular studies.
-                            The deficiency courses should cover most of the relevant topics
-                            to a Bachelor’s Degree in computing education from the 
-                            intermediate level of Mathematics.
+                            Computing programs for the following students: <br />
+                            
+                            <ol className='eligibility-criteria-ol-cs-page'>
+                                <li>
+                                    Those students who have done 
+                                    intermediate education (FSC or equivalent) in 
+                                    Pre-Medical with a minimum of 50% marks.
+                                </li>
+
+                                <li>
+                                    Pre-Medical students
+                                    are required to pass deficiency courses of Mathematics 
+                                    of 6 credit hours within 1 year of their regular studies.
+                                </li>
+                            </ol>
                         </p>
 
                         <h2>Fee Structure</h2>
@@ -137,12 +145,10 @@ export default function ComputerScience() {
                             <li><a href="#">BSAI (BS Artificial Intelligence)</a></li>
                             <li><a href="#">BSSE (BS Software Engineering)</a></li>
                             <li><a href="#">BSCYS (BS Cyber Security)</a></li>
-                            <li><a href="#">BBA (Bachelor of Business Administration)</a></li>
-                            <li><a href="#">BS Accounting and Finance</a></li>
                         </ol>
                     </div>
                 </div>
-                <Counter />
+                {/* <Counter /> */}
 
                 <div className="deans-message-div-container-computer-science">
                     <div className="deans-message-div-inner-computer-science">
