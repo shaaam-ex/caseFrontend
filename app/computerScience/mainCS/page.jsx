@@ -789,6 +789,13 @@ const page = () => {
                 </div>
 
                 <div className="mini-navigation-bar-available-programs-main-page">
+                    {
+                        Object.entries(programs).map(([iter, curr]) => (
+                            <div className='individual-mini-navigation-button-container'>
+                                <button className='individual-mini-navigation-button'>{iter}</button>
+                            </div>
+                        ))
+                    }
                 </div>
 
                 <div className="basic-info-cs">

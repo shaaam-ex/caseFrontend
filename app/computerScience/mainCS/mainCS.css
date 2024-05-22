@@ -90,6 +90,34 @@
     text-align: center;
 }
 
+.mini-navigation-bar-available-programs-main-page {
+    display: flex;
+    justify-content: center;
+
+    margin: 3.5vmax 0;
+}
+
+.individual-mini-navigation-button {
+    padding: 0.8vmax 1vmax;
+    margin: 0 1.5vmax;
+
+    border: 0;
+
+    width: 7vw;
+
+    border-bottom: 3px solid #245791;
+
+    transform: 0.32s ease-in-out;
+
+    font-size: 1.2vmax;
+}
+
+.individual-mini-navigation-button:hover {
+    cursor: pointer;
+
+    background-color: #c4c4c4;
+}
+
 .basic-info-cs {
     display: flex;
     justify-content: center;
