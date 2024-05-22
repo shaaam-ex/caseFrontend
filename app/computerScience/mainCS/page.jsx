@@ -402,9 +402,10 @@ const page = () => {
                     <img src="https://res.cloudinary.com/dm1hjjfsz/image/upload/v1716138459/case/faculty/cs/sir_jawad_passport_w8ry7g.webp" alt="" />
                 </div>
 
-                <h4 className='head-slogan-name'>Dr. Jawad Hussain</h4>
+                <h4 className='head-slogan-position'>Chair Person</h4>
+                <h4 className='head-slogan-name'>Dr. Syed Jawad Hussain</h4>
 
-                <h1 className='department-name-main-heading'>Department of computer science</h1>
+                <h1 className='department-name-main-heading'>Department of Computer Science</h1>
 
                 <div className="basic-info-cs">
                     <div className="first-div-basic-info-cs">
