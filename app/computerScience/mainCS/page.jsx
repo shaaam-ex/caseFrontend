@@ -9,6 +9,8 @@ const page = () => {
 
     const [semesters, setSemesters] = useState([]);
 
+    const[currentProgram, setCurrentProgram] = useState('BSCS');
+
     const [programs, setPrograms] = useState({
         "BSCS": {
             programInfo: "BS Computer Science includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as algorithms, software engineering, and systems design, as well as emerging fields like artificial intelligence and data science. ",
@@ -683,6 +685,55 @@ const page = () => {
                 ],
                 total: [15, 18] // [FSc/ICS, Med]
             },
+
+            {
+                name: 'Semester 8',
+                id: 'se-sem-8',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'Univ. Elective-3',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Marketing',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Professional Practices',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Software Quality Engineering',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Software Reengineering',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Final Year Project-2',
+                        credits: [4, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
         ]
         },
 
@@ -707,8 +758,8 @@ const page = () => {
         }
     });
 
-    useEffect(() => {
-    }, [])
+    // useEffect(() => {
+    // }, [currentProgram])
 
     // Initialize Semesters
     useEffect(() => {
@@ -1066,6 +1117,11 @@ const page = () => {
         ])
     }, [])
 
+
+    const setProgram = (e) => {
+        setCurrentProgram(e.target.value);
+    }
+
     return (
         <>
             <head>
@@ -1127,7 +1183,7 @@ const page = () => {
                     {
                         Object.entries(programs).map(([iter, curr]) => (
                             <div className='individual-mini-navigation-button-container'>
-                                <button className='individual-mini-navigation-button'>{iter}</button>
+                                <button value={iter} onClick={setProgram} className='individual-mini-navigation-button'>{iter}</button>
                             </div>
                         ))
                     }
@@ -1139,11 +1195,12 @@ const page = () => {
                             <h2>
                                 Program Info
                             </h2>
-                            <p>
+                            {/* <p>
                                 The program focuses on encouraging students to develop and use abstract models in addition to applying the respective technologies in practical 
                                 situations. This program focuses on establishing a strong mathematical foundation, basic aspects of computing, and advanced technical electives 
                                 covering areas like Intelligent Systems, Software Engineering & Net-Centric, Data Sciences, Information Security, E‐commerce, and Biomedical.
-                            </p>
+                            </p> */}
+                            <p>{programs[currentProgram].programInfo}</p>
                         </div>
 
                         <div className="degree-requirements-cs-first-div">
