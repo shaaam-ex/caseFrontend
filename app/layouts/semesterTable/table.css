@@ -96,6 +96,7 @@
 
 .main-row-subject-table > p {
     font-size: 13.5px;
+    line-height: 0.5vmax;
 }
 
 .main-row-subject-table {
