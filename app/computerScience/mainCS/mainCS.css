@@ -72,10 +72,19 @@
 }
 
 .department-name-main-heading {
-    margin: 4vmax 0;
+    margin: 4vmax 0 2vmax 0;
     text-align: center;
 
     font-size: 4vmax;
+}
+
+.container-main-line-department {
+    display: flex;
+    justify-content: center;
+}
+
+.main-line-department-p {
+    width: 82vw;
 }
 
 .basic-info-cs {

@@ -406,6 +406,21 @@ const page = () => {
                 <h4 className='head-slogan-name'>Dr. Syed Jawad Hussain</h4>
 
                 <h1 className='department-name-main-heading'>Department of Computer Science</h1>
+                
+                <div className="container-main-line-department">
+                    <p className='main-line-department-p'>
+                        The Department of Computer Science features a blend of the latest 
+                        curriculum, experienced faculty, research opportunities, and 
+                        industrial linkages. Our faculty, comprising foreign-qualified 
+                        academicians and industry experts, provide invaluable insights 
+                        and mentorship. The department’s strong industry partnerships 
+                        facilitate internships, job placements, and practical exposure. 
+                        We ensure our graduates are not only technically proficient but 
+                        also equipped with essential soft skills such as communication, 
+                        teamwork, and problem-solving, making them well-prepared to meet 
+                        the demands of the evolving IT industry.
+                    </p>
+                </div>
 
                 <div className="basic-info-cs">
                     <div className="first-div-basic-info-cs">
