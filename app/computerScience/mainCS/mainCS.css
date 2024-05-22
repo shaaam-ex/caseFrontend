@@ -85,7 +85,7 @@
 
 .main-line-department-p {
     width: 82vw;
-    font-size: 1.3vmax;
+    font-size: 1.2vmax;
 
     text-align: center;
 }
@@ -153,6 +153,7 @@ p > ul > li,
 .program-info-cs-first-div,
 .degree-requirements-cs-first-div,
 .eligibility-criteria-cs-first-div,
+.scholarships-div-main-page,
 .peo-container-cs {
     width: 40vw;
 }
@@ -165,6 +166,7 @@ p > ul > li,
 .degree-requirements-cs-first-div > h2,
 .eligibility-criteria-cs-first-div > h2,
 .semester-plan-cs > h2,
+.scholarships-div-main-page > h2,
 .peo-container-cs > h2 {
     border-bottom: 4px solid #0d3460;
     text-align: center;
@@ -181,6 +183,7 @@ p > ul > li,
 .degree-requirements-cs-first-div > p,
 .eligibility-criteria-cs-first-div > p,
 .semester-plan-cs > p,
+.scholarships-div-main-page > p,
 .peo-container-cs > ol > li {
     font-size: 15px;
 }

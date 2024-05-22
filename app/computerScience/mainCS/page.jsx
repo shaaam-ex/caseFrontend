@@ -9,6 +9,372 @@ const page = () => {
 
     const [semesters, setSemesters] = useState([]);
 
+    const [programs, setPrograms] = useState({
+        "BSCS": {
+            programInfo: "BS Computer Science includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as algorithms, software engineering, and systems design, as well as emerging fields like artificial intelligence and data science. ",
+            semesters: [{
+                name: 'Semester 1',
+                id: 'cs-sem-1',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'SC1201',
+                        name: 'Applied Physics',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Calculus & Analytic Geometry',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'English Composition & Comprehension',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'CS1001',
+                        name: 'Programming Fundamentals',
+                        credits: [3, 1],
+                        preRequisite: 'Freshman Standing'
+                    }
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 2',
+                id: 'cs-sem-2',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'HU1003',
+                        name: 'Communication & Presentation Skills',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'CS1502',
+                        name: 'Digital Logic and Design',
+                        credits: [3, 1],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1101',
+                        name: 'Islamic Studies',
+                        credits: [2, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1002',
+                        name: 'Multivariate Calculus',
+                        credits: [2, 0],
+                        preRequisite: 'SC1001'
+                    },
+
+                    {
+                        code: 'HU1102',
+                        name: 'Pakistan Studies',
+                        credits: [2, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'CS1002',
+                        name: 'Programming Techniques',
+                        credits: [1, 1],
+                        preRequisite: 'CS1001'
+                    },
+                ],
+                total: [15, 17] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 3',
+                id: 'cs-sem-3',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS2503',
+                        name: 'Computer Organization & Assembly Language',
+                        credits: [3, 1],
+                        preRequisite: 'SPM'
+                    },
+
+                    {
+                        code: 'CS2003',
+                        name: 'Data Structure and Algorithms',
+                        credits: [3, 1],
+                        preRequisite: 'CS1001'
+                    },
+
+                    {
+                        code: 'SC2003',
+                        name: 'Differential Equations',
+                        credits: [3, 0],
+                        preRequisite: 'SC1001'
+                    },
+
+                    {
+                        code: 'CS2301',
+                        name: 'Discrete Structures',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1002',
+                        name: 'Multivariate Calculus',
+                        credits: [2, 0],
+                        preRequisite: 'SC1001'
+                    },
+
+                    {
+                        code: 'CS2004',
+                        name: 'Object Oriented Programming',
+                        credits: [3, 1],
+                        preRequisite: 'CS1001'
+                    },
+                ],
+                total: [18, 19] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 4',
+                id: 'cs-sem-4',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–I',
+                        credits: [3, 1],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS2201',
+                        name: 'Introduction to Database Systems',
+                        credits: [3, 1],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'CS2504',
+                        name: 'Operating Systems',
+                        credits: [3, 1],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'SC2004',
+                        name: 'Probability and statistics',
+                        credits: [3, 0],
+                        preRequisite: 'SOPHOMORE STANDING'
+                    },
+
+                    {
+                        code: 'CS2101',
+                        name: 'Software Engineering',
+                        credits: [3, 0],
+                        preRequisite: 'SOPHOMORE STANDING'
+                    }
+                ],
+                total: [18, 18] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 5',
+                id: 'cs-sem-5',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–II',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS4303',
+                        name: 'Artificial Intelligence',
+                        credits: [3, 1],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–III',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS3005',
+                        name: 'Design & Analysis of Algorithms',
+                        credits: [3, 0],
+                        preRequisite: 'CS2003'
+                    },
+
+                    {
+                        code: 'SC3005',
+                        name: 'Linear Algebra',
+                        credits: [3, 0],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'CS3302',
+                        name: 'Theory of Automata and Formal Languages',
+                        credits: [3, 0],
+                        preRequisite: 'CS2301'
+                    }
+                ],
+                total: [19, 0] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 6',
+                id: 'cs-sem-6',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS3401',
+                        name: 'Computer Communication and Networks',
+                        credits: [3, 1],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–IV',
+                        credits: [3, 1],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'SC3006',
+                        name: 'Numerical Computing',
+                        credits: [2, 0],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'HU3004',
+                        name: 'Technical & Business Writing',
+                        credits: [3, 0],
+                        preRequisite: 'JUNIOR STANDING'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective-I',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+                ],
+                total: [16, 0] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 7',
+                id: 'cs-sem-7',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective–V',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS4006',
+                        name: 'Compiler Construction',
+                        credits: [3, 0],
+                        preRequisite: 'CS3302'
+                    },
+
+                    {
+                        code: 'CS4405',
+                        name: 'Parallel & Distributed Computing',
+                        credits: [3, 0],
+                        preRequisite: 'CS2504'
+                    },
+
+                    {
+                        code: 'CS4111',
+                        name: 'Senior Design Project-I',
+                        credits: [2, 0],
+                        preRequisite: 'SC'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective-II',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+                ],
+                total: [14, 0] // [FSc/ICS, Med]
+            },
+            
+            {
+                name: 'Semester 8',
+                id: 'cs-sem-8',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'N/A',
+                        name: 'CS Elective-VI',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'CS4406',
+                        name: 'Information Security',
+                        credits: [3, 0],
+                        preRequisite: 'Senior Standing'
+                    },
+
+                    {
+                        code: 'CS4112',
+                        name: 'Senior Design Project-II',
+                        credits: [4, 0],
+                        preRequisite: 'CS4111'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective- III',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+
+                    {
+                        code: 'N/A',
+                        name: 'University Elective- IV',
+                        credits: [3, 0],
+                        preRequisite: 'AS PER SPECIFIC COURSE'
+                    },
+                ],
+                total: [16, 0] // [FSc/ICS, Med]
+            },
+            
+            ],
+
+        },
+        "BSSE": {},
+        "BSAI": {},
+        "BSCYS": {},
+        "ADCS": {},
+        "MSCS": {}
+    });
+
+    useEffect(() => {
+    }, [])
+
     // Initialize Semesters
     useEffect(() => {
         setSemesters([
@@ -422,6 +788,9 @@ const page = () => {
                     </p>
                 </div>
 
+                <div className="mini-navigation-bar-available-programs-main-page">
+                </div>
+
                 <div className="basic-info-cs">
                     <div className="first-div-basic-info-cs">
                         <div className="program-info-cs-first-div">
@@ -474,6 +843,42 @@ const page = () => {
                             </p>
                         </div>
 
+                        <div className="scholarships-div-main-page">
+                            <h2>
+                                Scholarships
+                            </h2>
+                            <p>
+                                We are proud to announce a special scholarship 
+                                program dedicated to recognizing and rewarding 
+                                the top three students in our class. This 
+                                initiative aims to honor their exceptional 
+                                academic achievements, unwavering dedication, 
+                                and outstanding performance. Each scholarship 
+                                will provide financial support to help these 
+                                exemplary students pursue their educational 
+                                goals and continue their journey toward 
+                                academic excellence. We believe in nurturing 
+                                talent and encouraging the pursuit of knowledge,
+                                and we are excited to support our brightest 
+                                students as they strive for future success.
+                            </p>
+                        </div>
+
+                        <div className="semester-plan-cs">
+                            <h2>
+                                Semester Plan
+                            </h2>
+
+                            <div className="main-container-semester-plan-inner">
+                                {
+                                    semesters.map(sem => (
+                                        <Table semester={sem} />
+                                    ))
+                                }
+                            </div>
+                        </div>
+
+                        
                         <div className="peo-plo-cs">
                             <div className="peo-container-cs">
                                 <h2>Program Educational Objectives (PEO)</h2>
@@ -510,20 +915,6 @@ const page = () => {
                                         academic pursuits.
                                     </li>
                                 </ol>
-                            </div>
-                        </div>
-
-                        <div className="semester-plan-cs">
-                            <h2>
-                                Semester Plan
-                            </h2>
-
-                            <div className="main-container-semester-plan-inner">
-                                {
-                                    semesters.map(sem => (
-                                        <Table semester={sem} />
-                                    ))
-                                }
                             </div>
                         </div>
                     </div>
