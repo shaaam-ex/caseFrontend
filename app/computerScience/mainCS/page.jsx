@@ -1270,8 +1270,10 @@ const page = () => {
 
                             <div className="main-container-semester-plan-inner">
                                 {
-                                    semesters.map(sem => (
-                                        <Table semester={sem} />
+                                    programs[currentProgram].semesters.map(sem => (
+                                        <div className={sem.id}>
+                                            <Table className="temp-semester-table" semester={sem} />
+                                        </div>
                                     ))
                                 }
                             </div>
