@@ -85,6 +85,9 @@
 
 .main-line-department-p {
     width: 82vw;
+    font-size: 1.3vmax;
+
+    text-align: center;
 }
 
 .basic-info-cs {
