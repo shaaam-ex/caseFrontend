@@ -501,36 +501,183 @@ const page = () => {
                 subjects: [ // credits: [course, lab]
                     {
                         code: 'CS1001',
-                        name: 'Linear Algebra',
-                        credits: [3, 0],
+                        name: 'Operating System',
+                        credits: [4, 0],
                         preRequisite: 'Freshman Standing'
                     },
 
                     {
                         code: 'SC1001',
-                        name: 'Software Requirement Engineering',
-                        credits: [3, 0],
-                        preRequisite: 'Freshman Standing'
-                    },
-
-                    {
-                        code: 'HU1002',
-                        name: 'Communication & Presentation Skills',
-                        credits: [3, 0],
-                        preRequisite: 'Freshman Standing'
-                    },
-
-                    {
-                        code: 'HU1002',
-                        name: 'Data Structures & Algorithms',
+                        name: 'Object Oriented Programming',
                         credits: [4, 0],
                         preRequisite: 'Freshman Standing'
                     },
 
                     {
                         code: 'HU1002',
-                        name: 'Applied Physics',
+                        name: 'Pakistan Studies',
                         credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'SE -Supp 2',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Computer Communication and Network',
+                        credits: [4, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+
+            {
+                name: 'Semester 5',
+                id: 'se-sem-5',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'Database Systems',
+                        credits: [4, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Web Engineering',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'SE-Supp 1',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'SE-Elective 2',
+                        credits: [4, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Human Computer Interaction',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+
+            {
+                name: 'Semester 6',
+                id: 'se-sem-6',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'SE-Elec 1',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'TQM',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Mobile Computing',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Software Design and Arch',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'SE Supp 3',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'SE Elective 3',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+
+            {
+                name: 'Semester 7',
+                id: 'se-sem-7',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'Information Security',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'SE-Elec 5',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Software construction and development',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Software Project Management',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Entrepreneurship',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Islamic Studies/Ethics (Med)',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Final Year Project-1',
+                        credits: [2, 0],
                         preRequisite: 'Freshman Standing'
                     },
                 ],
