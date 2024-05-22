@@ -368,7 +368,175 @@ const page = () => {
 
         "BSSE": {
             programInfo: "BS Software Engineering program includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as software development, software design and architecture, quality assurance, as well as emerging fields like cloud computing, cybersecurity, and blockchain technology. We prioritize understanding market demands, preparing students for rewarding careers in software development, IT consulting, and product management, and enabling them to develop innovative software solutions.",
-            semesters: []
+            semesters: [
+                {
+                name: 'Semester 1',
+                id: 'se-sem-1',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'Programming Fundamentals',
+                        credits: [3, 1],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Introduction to ICT',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'English Composition & Comprehension',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Discrete Structures',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Islamic Studies/Ethics (Non Med)',
+                        credits: [2, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+
+            {
+                name: 'Semester 2',
+                id: 'se-sem-2',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'Programming Techniques',
+                        credits: [2, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Probability and Statistics',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Software Engineering',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Technical & Business Writing',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Calculus & Analytical Geometry',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+
+            {
+                name: 'Semester 3',
+                id: 'se-sem-3',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'Linear Algebra',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Software Requirement Engineering',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Communication & Presentation Skills',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Data Structures & Algorithms',
+                        credits: [4, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Applied Physics',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+
+            {
+                name: 'Semester 4',
+                id: 'se-sem-4',
+                subjects: [ // credits: [course, lab]
+                    {
+                        code: 'CS1001',
+                        name: 'Linear Algebra',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'SC1001',
+                        name: 'Software Requirement Engineering',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Communication & Presentation Skills',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Data Structures & Algorithms',
+                        credits: [4, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+
+                    {
+                        code: 'HU1002',
+                        name: 'Applied Physics',
+                        credits: [3, 0],
+                        preRequisite: 'Freshman Standing'
+                    },
+                ],
+                total: [15, 18] // [FSc/ICS, Med]
+            },
+        ]
         },
 
         "BSAI": {
