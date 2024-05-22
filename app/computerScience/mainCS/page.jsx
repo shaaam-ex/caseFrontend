@@ -365,11 +365,31 @@ const page = () => {
             ],
 
         },
-        "BSSE": {},
-        "BSAI": {},
-        "BSCYS": {},
-        "ADCS": {},
-        "MSCS": {}
+
+        "BSSE": {
+            programInfo: "BS Software Engineering program includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as software development, software design and architecture, quality assurance, as well as emerging fields like cloud computing, cybersecurity, and blockchain technology. We prioritize understanding market demands, preparing students for rewarding careers in software development, IT consulting, and product management, and enabling them to develop innovative software solutions.",
+            semesters: []
+        },
+
+        "BSAI": {
+            programInfo: "BS Artificial Intelligence program includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as machine learning, neural networks, and natural language processing. We also emphasize understanding market demands, preparing students for lucrative careers in AI-driven sectors such as healthcare, finance, and autonomous systems, and enabling them to develop innovative AI products and solutions.",
+            semesters: []
+        },
+
+        "BSCYS": {
+            programInfo: "BS Cyber Security program includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as network security, cryptography, ethical hacking, and digital forensics, as well as emerging fields like artificial intelligence in cybersecurity, cloud security, and blockchain technology. We also focus on understanding market demands, preparing students for lucrative careers in cybersecurity analysis, information security management, and threat intelligence, and empowering them to develop innovative security solutions.",
+            semesters: []
+        },
+
+        "ADCS": {
+            programInfo: "AD Computer Science includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as algorithms, software engineering, and systems design, as well as emerging fields like artificial intelligence and data science. ",
+            semesters: []
+        },
+
+        "MSCS": {
+            programInfo: "MS Computer Science includes a comprehensive set of courses that cover both foundational and advanced topics, ensuring students are well-versed in essential areas such as algorithms, software engineering, and systems design, as well as emerging fields like artificial intelligence and data science. ",
+            semesters: []
+        }
     });
 
     useEffect(() => {
